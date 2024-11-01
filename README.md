@@ -25,6 +25,8 @@ Raissa Aparecida
 Amàlia Soares Vieria de Vasconcelos
 * Nome completo do(a) professor(a)
 
+Amàlia Soares Vieria de Vasconcelos
+
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
