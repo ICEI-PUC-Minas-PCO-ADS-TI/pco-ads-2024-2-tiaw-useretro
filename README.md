@@ -22,7 +22,7 @@ Lucas Irtthum
 
 Raissa Aparecida
 
-Amàlia Soares Vieria de Vasconcelos
+
 * Nome completo do(a) professor(a)
 
 Amàlia Soares Vieria de Vasconcelos
