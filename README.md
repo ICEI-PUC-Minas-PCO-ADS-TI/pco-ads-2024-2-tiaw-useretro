@@ -11,10 +11,15 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 ## Integrantes
 
 Gustavo Bernardo
+
 George Gomes
+
 Mellyssa Meirelles
+
 Ana Caroline
+
 Lucas Irtthum
+
 Raissa Aparecida
 
 Amàlia Soares Vieria de Vasconcelos
