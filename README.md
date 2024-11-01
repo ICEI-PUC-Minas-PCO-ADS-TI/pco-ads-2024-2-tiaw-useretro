@@ -1,4 +1,4 @@
-# Nome do projeto
+UseRetrô
 
 `CURSO: Análise e Desenvolvimento de Sistemas`
 
@@ -10,15 +10,14 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+Gustavo Bernardo
+George Gomes
+Mellyssa Meirelles
+Ana Caroline
+Lucas Irtthum
+Raissa Aparecida
 
-## Professor
-
+Amàlia Soares Vieria de Vasconcelos
 * Nome completo do(a) professor(a)
 
 ## Instruções de utilização
