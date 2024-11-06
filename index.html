@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>useRetrô - Camisas Retrô de Futebol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>useRetrô</h1>
+      
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Login/Conta</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Carrossel -->
+   <section class="carrossel">
+    <h1>Camisas em Promoção</h1>
+    <div class="slider">
+        <div class="slide">
+            <img src="i1.png" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="i2.png" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="i3.png" alt="Imagem 3">
+        </div>
+    </div>
+    <div class="controls">
+        <button class="prev" onclick="mudarSlide(-1)">❮</button>
+        <button class="next" onclick="mudarSlide(1)">❯</button>
+    </div>
+</section>
+
+
+<script>
+    let indiceSlide = 0;
+    const slides = document.querySelectorAll('.slider .slide');
+    const totalSlides = slides.length;
+
+    // Função para mudar o slide manualmente
+    function mudarSlide(direcao) {
+        indiceSlide = (indiceSlide + direcao + totalSlides) % totalSlides;
+        atualizarSlide();
+    }
+
+    // Função para atualizar a posição do slide
+    function atualizarSlide() {
+        const offset = -indiceSlide * 100;
+        document.querySelector('.slider').style.transform = `translateX(${offset}%)`;
+    }
+
+    // Carrossel automático
+    setInterval(() => {
+        mudarSlide(1); // Vai para o próximo slide a cada 5 segundos
+    }, 5000);
+
+    const mobileMenu = document.getElementById('mobile-menu');
+const navList = document.getElementById('nav-list');
+
+mobileMenu.addEventListener('click', () => {
+    navList.classList.toggle('active');
+});
+   
+</script>
+
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 useRetrô - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
