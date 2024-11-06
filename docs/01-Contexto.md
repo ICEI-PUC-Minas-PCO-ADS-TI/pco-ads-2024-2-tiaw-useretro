@@ -9,9 +9,6 @@ A criação da **useRetrô** se justifica pelo aumento na procura por camisas re
 ## Problema
 O projeto **useRetrô** busca resolver a dificuldade que colecionadores e fãs de futebol enfrentam para encontrar camisas retrô autênticas e de qualidade. A oferta limitada dessas peças em lojas tradicionais e e-commerces comuns, aliada à insegurança quanto à autenticidade e à confiabilidade dos vendedores, gera frustração nos consumidores. A **useRetrô** surge para criar um ambiente especializado e seguro, onde os compradores possam adquirir camisas históricas com confiança, conectando-se diretamente a vendedores em um espaço dedicado a esse mercado.
 
-> **Links úteis**:
-> - [Objetivos, problema de pesquisa e justificativa / Matriz certezas, suposições e dúvidas / Brainstorming]([https://www.euax.com.br/2018/09/brainstorming/](https://drive.google.com/file/d/1avRA-KDNTxHupwIebYsuPYdaJr9mesLB/view?usp=sharing))
-
 ## Objetivos
 
 O objetivo geral do projeto **useRetrô** é desenvolver um software que ofereça uma plataforma especializada para compra e negociação de camisas retrô de times de futebol, proporcionando um ambiente seguro, confiável e focado nas necessidades de colecionadores e admiradores desse tipo de produto.
