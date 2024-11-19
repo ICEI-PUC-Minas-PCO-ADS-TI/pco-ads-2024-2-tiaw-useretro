@@ -1,36 +1,62 @@
-html>
-<html 
-   lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barra de Pesquisa</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Mensagem ou Sugestão</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Função JavaScript para capturar e processar o formulário
+        function handleSubmit(event) {
+            event.preventDefault(); // Impede o envio padrão do formulário
+
+            // Captura os dados dos campos do formulário
+            const nome = document.getElementById('nome').value;
+            const numero = document.getElementById('numero').value;
+            const email = document.getElementById('email').value;
+            const comentario = document.getElementById('comentario').value;
+
+            // Cria um objeto JSON com os dados
+            const formData = {
+                nome: nome,
+                numero: numero,
+                email: email,
+                comentario: comentario
+            };
+
+            // Converte o objeto para uma string JSON e exibe no console
+            console.log('Dados do formulário:', JSON.stringify(formData, null, 2));
+
+            // Simula uma resposta de envio com sucesso
+            alert('Sua mensagem foi enviada com sucesso!');
+            
+            // Reseta o formulário após envio
+            document.querySelector('form').reset();
+        }
+    </script>
 </head>
 <body>
-<header>
-    <h1>useRetrô</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Página Inicial</a></li>
-            <li><a href="#">Login/Conta</a></li>
-            <li><a href="#">Catálogo</a></li>
-            <li><a href="#">Vender</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-        </ul>
-    </nav>
-    <div class="search-container">
-        <form action="search_results.html" method="get">
-            <input type="text" class="search-box" name="query" placeholder="Digite aqui sua pesquisa..." required>
-            <button type="submit" class="search-button">Pesquisar</button>
+
+    <div class="container">
+        <h1>Mensagem ou Sugestão</h1>
+        
+        <!-- Adiciona o evento de envio do formulário -->
+        <form action="#" method="post" onsubmit="handleSubmit(event)">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="comentario">Comentário:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
         </form>
     </div>
-</header>
 
-   
-
-<footer class="rodape">
-    <p>&copy; 2024 useRetrô - Todos os direitos reservados.</p>
-</footer>
 </body>
 </html>
