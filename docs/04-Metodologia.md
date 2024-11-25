@@ -3,7 +3,29 @@
 
 <span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Product design</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+Definição dos Objetivos do Site
+
+Criar uma plataforma que ofereça camisas retrô.
+Proporcionar uma experiência de navegação intuitiva e visualmente atraente.
+Destacar a história e a inspiração por trás de cada produto.
+Facilitar o processo de compra, entrega e atendimento ao cliente.
+
+Planejamento
+Público-alvo:
+Identificar o público interessado em moda retrô, fãs de esportes, cinéfilos, nostálgicos e colecionadores.
+
+Definição de Funcionalidades Principais:
+Catálogo de produtos com filtros (época, estilo, tipo de camisa).
+Integração com métodos de pagamento variados (cartão, Pix, boleto).
+
+Ferramentas Ultilizadas
+Html, Css, JavaScript, JsonServer
+
+Testes
+Funcionais: Verificar se o site funciona conforme esperado (cadastro, busca, compra, checkout).
+Compatibilidade: Testar em diferentes dispositivos e navegadores.
+Performance: Garantir que o site carregue rapidamente.
+
 
 ## Relação de ambientes de trabalho
 
@@ -46,10 +68,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 > A equipe utiliza o Scrum como base para definição do processo de desenvolvimento. [Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 
-- Scrum Master: nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: nome de um membro da equipe, representante dos interesses de todos os envolvidos (stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: nomes de todos os membros da equipe, pois todos os membros deverão implementar no mínimo duas telas/funcionalidades.
-- Equipe de Design: nomes dos membros da equipe que trabalharão com design.
+- Scrum Master: Mellyssa Meirelles
+- Product Owner: Ana Caroline
+- Equipe de Desenvolvimento: Gustavo Bernardo, George Gomes, Mellyssa Meirelles, Ana Caroline, Raissa Aparecida
+- Equipe de Design: Ana Caroline, Mellyssa Meirelles 
 
 > **Links úteis**:
 > - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
