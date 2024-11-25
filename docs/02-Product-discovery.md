@@ -10,9 +10,12 @@
 
 > * **Matriz CSD**: [Matriz-CSD.pdf](https://github.com/user-attachments/files/17910025/Matriz-CSD.pdf)
 
-> * **Mapa de stakeholders**: ferramenta que permite identificar e entender o grupo de pessoas e entidades que devem ser analisados e consultados para obter uma visão mais ampla do problema;
-> * **Entrevistas qualitativas**: uma série de entrevistas qualitativas a fim de validar suposições e esclarecer dúvidas junto aos principais envolvidos;
-> * **Highlights de pesquisa**: um compilado das informações levantadas durante as entrevistas realizadas.
+> * **Mapa de stakeholders**: [Mapa-stakeholders.pdf](https://github.com/user-attachments/files/17910031/Mapa-stakeholders.pdf)
+
+> * **Entrevistas qualitativas**: [Entrevistas-Qualitativas.pdf](https://github.com/user-attachments/files/17910034/Entrevistas-Qualitativas.pdf)
+
+> * **Highlights de pesquisa**: [Highlights-Entrevistas.pdf](https://github.com/user-attachments/files/17910037/Highlights-Entrevistas.pdf)
+
 
 > **Links úteis**:
 > - [Mapa de stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
@@ -23,8 +26,8 @@
 
 **✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
+>[Personas.pdf](https://github.com/user-attachments/files/17910046/Personas.pdf)
+
 > Deve-se relacionar as personas identificadas no projeto, juntamente com os respectivos mapas de empatia. É importante enumerar e descrever de maneira precisa e personalizada todos os principais envolvidos na solução pretendida.
 
 
