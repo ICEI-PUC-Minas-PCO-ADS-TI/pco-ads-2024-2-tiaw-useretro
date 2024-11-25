@@ -11,17 +11,21 @@ Destacar a história e a inspiração por trás de cada produto.
 Facilitar o processo de compra, entrega e atendimento ao cliente.
 
 Planejamento
-Público-alvo:
-Identificar o público interessado em moda retrô, fãs de esportes, cinéfilos, nostálgicos e colecionadores.
+
+Público-alvo: Identificar o público interessado em moda retrô, fãs de esportes, cinéfilos, nostálgicos e colecionadores.
+
 
 Definição de Funcionalidades Principais:
+
 Catálogo de produtos com filtros (época, estilo, tipo de camisa).
 Integração com métodos de pagamento variados (cartão, Pix, boleto).
 
 Ferramentas Ultilizadas
+
 Html, Css, JavaScript, JsonServer
 
 Testes
+
 Funcionais: Verificar se o site funciona conforme esperado (cadastro, busca, compra, checkout).
 Compatibilidade: Testar em diferentes dispositivos e navegadores.
 Performance: Garantir que o site carregue rapidamente.
@@ -64,7 +68,6 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ###  Divisão de papéis
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
 > A equipe utiliza o Scrum como base para definição do processo de desenvolvimento. [Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 
