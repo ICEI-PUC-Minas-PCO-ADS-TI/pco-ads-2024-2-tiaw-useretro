@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisas em Destaque - useRetrô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>useRetrô</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Login/Conta</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="product-highlight">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="vasco.jpeg" alt="Camisa do Vasco">
+                    <img src="vasco detalhes.jpg" alt="Detalhes da camisa">
+                    <img src="vasco atras.jpeg" alt="Detalhe de trás">
+                </div>
+            </div>
+            <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+
+            <h2>Camisa Vasco</h2>
+            <p>A camisa do Vasco da Gama de 2000 é uma peça histórica, especialmente lembrada pela conquista da Copa
+                Mercosul e do Campeonato Brasileiro no mesmo ano, consolidando o clube como uma das maiores forças do
+                futebol sul-americano naquele período.</p>
+            <p><strong>R$ 199,90</strong></p>
+
+            <label for="size">Tamanho:</label>
+            <select id="size" class="size-selector">
+                <option value="p">P</option>
+                <option value="m">M</option>
+                <option value="g">G</option>
+                <option value="gg">GG</option>
+            </select>
+
+            <div class="product-actions">
+                <button type="button" class="btn btn-dark">Adicionar ao carrinho</button>
+                <button type="button" class="btn btn-primary">Comprar Agora</button>
+            </div>
+        </section>
+        <div class="user-reviews">
+            <h1>Avaliação de Usuários</h1>
+            <div class="review">
+                <h3>Usuário 1</h3>
+                <p>Produto excelente!</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="review">
+                <h3>Usuário 2</h3>
+                <p>Ótima qualidade, recomendo!</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 useRetrô - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</html>
+</body>

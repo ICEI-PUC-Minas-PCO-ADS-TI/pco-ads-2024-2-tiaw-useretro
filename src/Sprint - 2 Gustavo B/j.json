@@ -1,0 +1,45 @@
+{
+    "site": {
+      "title": "Camisas em Destaque - useRetrô",
+      "header": {
+        "logo": "useRetrô",
+        "menu": [
+          "Página Inicial",
+          "Login/Conta",
+          "Catálogo",
+          "Vender",
+          "Sobre Nós"
+        ]
+      },
+      "main": {
+        "product_highlight": {
+          "name": "Camisa Vasco",
+          "description": "A camisa do Vasco da Gama de 2000 é uma peça histórica, especialmente lembrada pela conquista da Copa Mercosul e do Campeonato Brasileiro no mesmo ano, consolidando o clube como uma das maiores forças do futebol sul-americano naquele período.",
+          "price": "R$ 199,90",
+          "sizes": ["P", "M", "G", "GG"],
+          "images": [
+            "vasco.jpeg",
+            "vasco detalhes.jpg",
+            "vasco atras.jpeg"
+          ],
+          "actions": ["Adicionar ao carrinho", "Comprar Agora"]
+        },
+        "user_reviews": [
+          {
+            "user": "Usuário 1",
+            "comment": "Produto excelente!",
+            "rating": 5
+          },
+          {
+            "user": "Usuário 2",
+            "comment": "Ótima qualidade, recomendo!",
+            "rating": 5
+          }
+        ]
+      },
+      "footer": {
+        "text": "© 2024 useRetrô - Todos os direitos reservados."
+      }
+    }
+  }
+  

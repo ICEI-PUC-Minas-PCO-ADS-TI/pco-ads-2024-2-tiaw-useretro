@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    padding-top: 100px;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Destaque do produto */
+.product-highlight {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-highlight h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.product-highlight p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.product-highlight strong {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.size-selector {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+/* Botões do produto */
+.product-actions .btn {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 1%;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.product-actions .btn-dark {
+    background-color: #444;
+    color: white;
+}
+
+.product-actions .btn-dark:hover {
+    background-color: #222;
+}
+
+.product-actions .btn-primary {
+    background-color: #444;
+    color: white;
+}
+
+.product-actions .btn-primary:hover {
+    background-color: #222;
+}
+
+
+.btn-retro {
+    background-color: #000; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-retro:hover {
+    background-color: #222; 
+    color: #fff; 
+}
+
+/* Estilização do Carrossel */
+.carousel-container {
+    max-width: 100%;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Botões do Carrossel */
+/* Botões do Carrossel */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Um tom mais suave */
+    color: #fff;
+    border: none;
+    padding: 8px 12px; /* Reduzi o tamanho */
+    font-size: 1.2rem; /* Ajustei o tamanho da fonte */
+    cursor: pointer;
+    border-radius: 4px; /* Bordas suavizadas */
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Adicionei sombra para destaque */
+}
+
+.carousel-btn.prev {
+    left: 420px; /* Posição ajustada */
+}
+
+.carousel-btn.next {
+    right: 420px; /* Posição ajustada */
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Avaliações de Usuários */
+.user-reviews {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.user-reviews .review {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.stars {
+    color: gold;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-reviews {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.user-reviews h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-reviews .review {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.user-reviews h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.user-reviews p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Estilização de Estrelas */
+.rating {
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+
+.rating::before {
+    content: "★★★★★";
+    color: #ccc;
+    position: absolute;
+    z-index: -1;
+}
+
+.rating span {
+    color: #ffcc00;
+    z-index: 1;
+}
+
+/* Menu Hamburguer */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#nav-menu {
+    transition: max-height 0.3s ease;
+}
+
+#nav-menu ul {
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    header nav {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    #nav-menu {
+        display: none;
+        max-height: 300px;
+        background-color: #333;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        text-align: center;
+    }
+
+    #nav-menu.active {
+        display: block;
+    }
+
+    #nav-menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
