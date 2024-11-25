@@ -28,12 +28,6 @@
 
 >[Personas.pdf](https://github.com/user-attachments/files/17910046/Personas.pdf)
 
-> Deve-se relacionar as personas identificadas no projeto, juntamente com os respectivos mapas de empatia. É importante enumerar e descrever de maneira precisa e personalizada todos os principais envolvidos na solução pretendida.
-
-
-![Exemplo de persona](images/exemplo-persona.png)
-
-
 > **Links úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
