@@ -36,44 +36,34 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 | ID     | Descrição do Requisito                                   |
 | ------ | ----------------------------------------------------------|
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️|
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ |
+| RF-001 | Exibição de produtos em destaque. Mostrar camisas retrôs populares ou em promoção.|
+| RF-002 | Menu de navegação. Links para categorias, novidades, ofertas e informações da loja.|
+| RF-003 | Banner ou slider. Exibir imagens promocionais e ofertas especiais.|
+| RF-004 | Banner ou slider. Exibir imagens promocionais e ofertas especiais.|
+| RF-005 | Rastreamento de entrega. Tela para consultar o andamento do processo de entrega.|
+| RF-006 | Suporte ao cliente. Opção de suporte humanizado para atendimento ao cliente.|
+| RF-007 | Histórico de buscas e favoritos. Sistema para armazenar buscas recentes e salvar favoritos.|
+| RF-008 | Notificações de estoque. Avisar quando um produto favorito voltar ao estoque.|
+| RF-009 | Recomendações personalizadas. Sugerir produtos com base nas preferências do usuário.|
+| RF-010 | Cupons e promoções. Geração de cupons e promoções personalizadas para os usuários.|
+| RF-011 | Filtros de produtos. Filtros para refinar a busca, como por tamanho e características.|
+| RF-012 | Catálogo de produtos. Exibir camisas retrôs com imagem, descrição, preço e tamanhos.|
+| RF-013 | Sistema de busca. Barra de busca para encontrar produtos por nome, time ou categoria.|
+| RF-014 | Carrinho de compras. Adição, visualização e edição de itens no carrinho.|
+| RF-015 | Processo de checkout. Coleta de informações de envio, pagamento e confirmação do pedido.|
 
 ### Requisitos não funcionais
 
 | ID      | Descrição do Requisito                                                              |
 | ------- | ------------------------------------------------------------------------------------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em dispositivos móveis |
-| RNF-002 | Deve processar as requisições do usuário em no máximo 3 segundos |
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Com base nas histórias de usuários, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos não funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-
-Lembre-se de que cada requisito deve corresponder a uma e somente uma característica-alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas histórias de usuários foram cobertos.
-
-> **Links úteis**:
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [Entenda o que são requisitos de software, a diferença entre requisito funcional e não funcional, e como identificar e documentar cada um deles](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| RNF-001 | Processo de checkout. Coleta de informações de envio, pagamento e confirmação do pedido.|
+| RNF-002 | Compatibilidade com navegadores. O site deve ser compatível com Chrome, Firefox, Safari, Edge.|
+| RNF-003 | Compatibilidade com dispositivos. O site deve ser responsivo em smartphones, tablets e desktops.|
+| RNF-004 | Responsividade. O sistema deve se adaptar a diversos tamanhos de tela.|
+| RNF-005 | Responsividade. O sistema deve se adaptar a diversos tamanhos de tela.|
+| RNF-006 | Desempenho. O sistema deve ter baixa latência e ser fácil de usar.|
+| RNF-007 | Disponibilidade. O sistema deve estar disponível 24 horas por dia, 7 dias por semana.|
+| RNF-008 | Segurança. Implementar criptografia (SSL) para proteger dados sensíveis e evitar ataques.|
+| RNF-009 | Usabilidade. A interface deve ser intuitiva e de fácil uso em diferentes dispositivos.|
 
 
-## Restrições
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-O projeto está restrito aos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|001| O projeto deverá ser entregue até o final do semestre ⚠️ EXEMPLO ⚠️ |
-|002| Não é permitido o desenvolvimento de um módulo de back-end  ⚠️ EXEMPLO ⚠️  |
