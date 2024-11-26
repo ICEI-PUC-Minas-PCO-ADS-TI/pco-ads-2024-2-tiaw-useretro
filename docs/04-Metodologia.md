@@ -57,6 +57,5 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A r
 | Processo de Design Thinking         | Miro                               | https://....   ⚠️ EXEMPLO ⚠️        |
 | Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
 | Documentos do projeto               | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️        |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....    ⚠️ EXEMPLO ⚠️        |
 | Projeto de interface                | Figma                              | http://....    ⚠️ EXEMPLO ⚠️        |
  
