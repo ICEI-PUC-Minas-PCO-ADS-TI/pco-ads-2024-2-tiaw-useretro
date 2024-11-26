@@ -1,61 +1,82 @@
-
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Product design</a></span>
+### **Pré-requisitos:**  
+[Product Design](03-Product-design.md)
 
-Definição dos Objetivos do Site
+---
 
-Criar uma plataforma que ofereça camisas retrô.
-Proporcionar uma experiência de navegação intuitiva e visualmente atraente.
-Destacar a história e a inspiração por trás de cada produto.
-Facilitar o processo de compra, entrega e atendimento ao cliente.
+## **Definição dos Objetivos do Site**
 
-Planejamento
+- Desenvolver uma plataforma especializada em camisas retrô.  
+- Oferecer uma experiência de navegação intuitiva e visualmente atraente.  
+- Apresentar a história e a inspiração por trás de cada produto.  
+- Facilitar o processo de compra, entrega e atendimento ao cliente.  
 
-Público-alvo: Identificar o público interessado em moda retrô, fãs de esportes, cinéfilos, nostálgicos e colecionadores.
+---
 
+## **Planejamento**
 
-Definição de Funcionalidades Principais:
+### **Público-Alvo**  
+Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cinéfilos, nostálgicos e colecionadores.  
 
-Catálogo de produtos com filtros (época, estilo, tipo de camisa).
-Integração com métodos de pagamento variados (cartão, Pix, boleto).
+---
 
-Ferramentas Ultilizadas
+## **Funcionalidades Principais**
 
-Visual studio code ( Html, Css, JavaScript, JsonServer ), GitHub, Miro  
+- Catálogo de produtos com filtros avançados (por época, estilo e tipo de camisa).  
+- Integração com métodos de pagamento diversos (cartão de credito e Pix).  
+- Sistema de buscas eficiente com sugestões personalizadas.  
 
-Testes
+---
 
-Funcionais: Verificar se o site funciona conforme esperado (cadastro, busca, compra, checkout).
-Compatibilidade: Testar em diferentes dispositivos e navegadores.
-Performance: Garantir que o site carregue rapidamente.
+## **Ferramentas Utilizadas**
 
+- **IDE/Editor:** Visual Studio Code (HTML, CSS, JavaScript).  
+- **Banco de Dados Simulado:** JSON Server.  
+- **Gerenciamento de Repositórios:** GitHub.  
+- **Ferramentas de Design e Planejamento:** Miro.  
 
-## Relação de ambientes de trabalho
+---
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+## **Testes**
 
+- **Funcionais:**  
+  Validar funcionalidades principais, como cadastro de usuários, busca de produtos, compra e checkout.  
 
+- **Compatibilidade:**  
+  Testar o site em diferentes dispositivos e navegadores para garantir responsividade.  
 
-## Planejamento do projeto
+- **Performance:**  
+  Garantir carregamento rápido e navegação fluida.  
 
-###  Divisão de papéis
+---
 
+## **Ambientes de Trabalho**
 
-> A equipe utiliza o Scrum como base para definição do processo de desenvolvimento. [Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
+Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será detalhada a relação entre os ambientes utilizados, suas plataformas e respectivos links de acesso. Além disso, serão especificados os frameworks e tecnologias empregados no desenvolvimento de aplicações móveis.  
 
-- Scrum Master: Mellyssa Meireles
-- Product Owner: Ana Caroline
-- Equipe de Desenvolvimento: Gustavo Bernardo, George Gomes, Mellyssa Meireles, Ana Caroline, Raissa Aparecida
-- Equipe de Design: Ana Caroline, Mellyssa Meireles 
+**Exemplo de tabela a ser criada:**  
 
+| Ambiente        | Plataforma              | Link de Acesso                    |  
+|------------------|-------------------------|------------------------------------|  
+| Desenvolvimento  | Visual Studio Code     | [Acesso ao repositório](#)        |  
+| Design           | Figma, Miro            | [Protótipo](#)                    |  
 
-### Ferramentas
+---
 
-| Ambiente                            | Plataforma                         | Link de acesso                       |
-|-------------------------------------|------------------------------------|--------------------------------------|
-| Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVKoqwSn4=/|
-| Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
-| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/blob/main/docs/01-Contexto.md|
-| Projeto de interface                | Figma                              | https://www.figma.com/board/ItLfh0bIf6yR3omNGweuNG/Wireframe%2FPrototipo-useRetrô?node-id=0-1&node-type=canvas |
- 
+## **Planejamento do Projeto**
+
+### **Divisão de Papéis**  
+
+A equipe adota o framework **Scrum** como base para o processo de desenvolvimento. Abaixo estão definidos os papéis dos integrantes:  
+
+- **Scrum Master:** Mellyssa Meireles  
+- **Product Owner:** Ana Caroline  
+- **Equipe de Desenvolvimento:**  
+  Gustavo Bernardo, George Gomes, Mellyssa Meireles, Ana Caroline, Raissa Aparecida  
+- **Equipe de Design:**  
+  Ana Caroline, Mellyssa Meireles  
+
+---
+
+Essa estrutura oferece clareza e organização para garantir o sucesso do projeto. Caso precise de ajustes ou mais informações, é só me avisar! 😊  
