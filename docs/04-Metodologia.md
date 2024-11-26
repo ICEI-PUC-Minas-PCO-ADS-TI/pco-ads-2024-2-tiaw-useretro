@@ -57,10 +57,10 @@ Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será
 
 **Exemplo de tabela a ser criada:**  
 
-| Ambiente        | Plataforma              | Link de Acesso                    |  
-|------------------|-------------------------|------------------------------------|  
-| Desenvolvimento  | Visual Studio Code     | [Acesso ao repositório](#)        |  
-| Design           | Figma, Miro            | [Protótipo](#)                    |  
+| Ambiente        | Plataforma              | 
+|------------------|-------------------------|
+| Desenvolvimento  | Visual Studio Code     |
+| Design           | Figma, Miro            | 
 
 ---
 
