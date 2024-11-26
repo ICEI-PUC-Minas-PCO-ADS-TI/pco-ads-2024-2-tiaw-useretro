@@ -10,7 +10,6 @@
  ## User flow
 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
 Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
 
@@ -26,17 +25,21 @@ Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
 São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
 
+
 **✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+![Captura de tela 2024-11-26 183536](https://github.com/user-attachments/assets/cdaa05bc-ff5e-46e5-aa46-1ba60c1cdbba)
 
-Descrição para a tela XPTO
+![Captura de tela 2024-11-26 183758](https://github.com/user-attachments/assets/f5e999db-b709-40a2-85ca-6768e7c692a3)
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+![Captura de tela 2024-11-26 183828](https://github.com/user-attachments/assets/94a21dd7-0979-4457-847b-5b33edb798de)
+
+![Captura de tela 2024-11-26 183847](https://github.com/user-attachments/assets/2df51737-e4d6-4beb-91f9-8ae30178deff)
+
+![Captura de tela 2024-11-26 183906](https://github.com/user-attachments/assets/f7f63af8-1998-4275-8eff-e6914f0e959e)
 
  
 > **Links úteis**:
@@ -47,13 +50,3 @@ Descrição para a tela XPTO
 > - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 > - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
 
-
-### Protótipo Interativo
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto das interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse utilizando o software finalizado. Utilize as mesmas ferramentas de criação de wireframes para a montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
-
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo interativo](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
