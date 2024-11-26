@@ -60,4 +60,6 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RNF-008 | Segurança. Implementar criptografia (SSL) para proteger dados sensíveis e evitar ataques.|
 | RNF-009 | Usabilidade. A interface deve ser intuitiva e de fácil uso em diferentes dispositivos.|
 
+[Requisitos do Projeto.pdf](https://github.com/user-attachments/files/17924091/Requisitos.do.Projeto.pdf)
+
 
