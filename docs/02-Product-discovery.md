@@ -2,41 +2,37 @@
 
 <span style="color:red">Pré-requisitos: <a href="01-Contexto.md"> Documentação de contexto</a></span>
 
-✅ [Documentação de Design Thinking (MIRO)](files/processo-dt.pdf)
+✅ [Documentação de Design Thinking (MIRO)]([files/processo-dt.pdf](https://miro.com/app/board/uXjVKoqwSn4=/))
 
 ## Etapa de entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
+> * **Matriz CSD**:
+> * ![image](https://github.com/user-attachments/assets/c93bd3f1-6cce-4bc7-a8ed-ee5da56921ba)
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesta etapa, é necessário aplicar a metodologia de Design Thinking para compreender de forma mais profunda o problema a ser abordado. Durante esse processo, devem ser elaborados os seguintes elementos:
->
-> * **Matriz CSD**:  também conhecida como Matriz de Alinhamento, trata-se de uma ferramenta utilizada no Design Thinking para organizar informações, facilitando a tomada de decisões e a solução de problemas;
-> * **Mapa de stakeholders**: ferramenta que permite identificar e entender o grupo de pessoas e entidades que devem ser analisados e consultados para obter uma visão mais ampla do problema;
-> * **Entrevistas qualitativas**: uma série de entrevistas qualitativas a fim de validar suposições e esclarecer dúvidas junto aos principais envolvidos;
-> * **Highlights de pesquisa**: um compilado das informações levantadas durante as entrevistas realizadas.
+> * **Mapa de stakeholders**:
+> * ![image](https://github.com/user-attachments/assets/08b6e789-a7c5-4ac7-a149-c88d7257afee)
 
-> **Links úteis**:
-> - [Mapa de stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
+> * **Entrevistas qualitativas**:
+> * ![image](https://github.com/user-attachments/assets/4593c751-aac2-44ee-87c2-966a48befa89)
+> * ![image](https://github.com/user-attachments/assets/be9a2058-95a7-4546-a7c2-a3b8e67fd52d)
+> * ![image](https://github.com/user-attachments/assets/b2fcd246-e982-45d6-8713-48b48ed5ef96)
+> * ![image](https://github.com/user-attachments/assets/8c7c72b5-351d-4352-9956-4a3b309abdba)
+> * ![image](https://github.com/user-attachments/assets/dd8320d8-d9df-4a4a-807f-032410b39c51)
+> * ![image](https://github.com/user-attachments/assets/640960f5-7aed-4bcf-9144-9a2cc92dbe98)
+
+
+> * **Highlights de pesquisa**:
+> * ![image](https://github.com/user-attachments/assets/c7c6e39b-8c81-442c-9af1-9534f7da7f2b)
+
 
 ## Etapa de definição
 
 ### Personas
-
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Deve-se relacionar as personas identificadas no projeto, juntamente com os respectivos mapas de empatia. É importante enumerar e descrever de maneira precisa e personalizada todos os principais envolvidos na solução pretendida.
+![image](https://github.com/user-attachments/assets/92d39820-747c-4973-9409-5f64f2f89858)
+![image](https://github.com/user-attachments/assets/b1ae7a27-43dc-4b58-a4e1-68011647d843)
+![image](https://github.com/user-attachments/assets/9e0240dd-4396-421b-93ba-e156e8b8ea01)
+![image](https://github.com/user-attachments/assets/81bf52dd-91f8-4c60-984d-b1971554fb55)
 
 
-![Exemplo de persona](images/exemplo-persona.png)
 
 
-> **Links úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
