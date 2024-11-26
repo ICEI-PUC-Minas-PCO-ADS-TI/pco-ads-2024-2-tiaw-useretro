@@ -22,7 +22,8 @@ Integração com métodos de pagamento variados (cartão, Pix, boleto).
 
 Ferramentas Ultilizadas
 
-Html, Css, JavaScript, JsonServer
+visual studio code ( Html, Css, JavaScript, JsonServer )
+GitHub  
 
 Testes
 
