@@ -56,6 +56,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A r
 |-------------------------------------|------------------------------------|--------------------------------------|
 | Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVKoqwSn4=/|
 | Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
-| Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/blob/main/docs/01-Contexto.md|
-| Projeto de interface                | Figma                              | http://....    ⚠️ EXEMPLO ⚠️        |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/blob/main/docs/01-Contexto.md|
+| Projeto de interface                | Figma                              | https://www.figma.com/board/ItLfh0bIf6yR3omNGweuNG/Wireframe%2FPrototipo-useRetrô?node-id=0-1&node-type=canvas |
  
