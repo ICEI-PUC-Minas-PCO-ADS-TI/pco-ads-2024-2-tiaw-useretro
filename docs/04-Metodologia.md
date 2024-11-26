@@ -54,7 +54,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A r
 
 | Ambiente                            | Plataforma                         | Link de acesso                       |
 |-------------------------------------|------------------------------------|--------------------------------------|
-| Processo de Design Thinking         | Miro                               | https://....   ⚠️ EXEMPLO ⚠️        |
+| Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVKoqwSn4=/|
 | Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
 | Documentos do projeto               | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️        |
 | Projeto de interface                | Figma                              | http://....    ⚠️ EXEMPLO ⚠️        |
