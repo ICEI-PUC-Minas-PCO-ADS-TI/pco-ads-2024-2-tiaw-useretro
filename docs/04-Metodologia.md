@@ -76,7 +76,3 @@ A equipe adota o framework **Scrum** como base para o processo de desenvolviment
   Gustavo Bernardo, George Gomes, Mellyssa Meireles, Ana Caroline, Raissa Aparecida  
 - **Equipe de Design:**  
   Ana Caroline, Mellyssa Meireles  
-
----
-
-Essa estrutura oferece clareza e organização para garantir o sucesso do projeto. Caso precise de ajustes ou mais informações, é só me avisar! 😊  
