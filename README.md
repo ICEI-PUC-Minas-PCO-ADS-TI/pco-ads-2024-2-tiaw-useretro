@@ -14,7 +14,6 @@ O projeto useRetrô visa criar uma plataforma que facilite a compra e negociaç�
 * Ana Caroline Resende Gomes
 * George Gomes Ribeiro Junior
 * Gustavo Bernardo Nunes dos Santos
-* Lucas Costa Irrthum
 * Raissa Aparecida de Souza Rocha
 
 ## Professor
