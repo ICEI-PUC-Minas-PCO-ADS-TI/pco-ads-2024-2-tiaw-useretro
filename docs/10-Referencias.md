@@ -6,7 +6,7 @@ Inclua todas as referências (livros, artigos, sites, etc.) utilizadas no desenv
 
 ⚠️ EXEMPLO ⚠️
 
-- BENYON, David. **Interação humano-computador**. 2. ed. São Paulo: Pearson Prentice Hall, 2011.
+- layout,  ClubsStar Imports
 
 - CORMEN, Thomas H et al. **Algoritmos:** teoria e prática. 4. ed. Rio de Janeiro: GEN LTC, 2024.
  
