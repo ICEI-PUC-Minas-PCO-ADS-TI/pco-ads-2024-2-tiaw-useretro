@@ -8,7 +8,17 @@
 
 ## Proposta de valor
 
-**Proposta de valor**: [Propostas de valor.pdf](https://github.com/user-attachments/files/17926867/Propostas.de.valor.pdf)
+**Proposta de valor**: 
+![image](https://github.com/user-attachments/assets/17c26587-4f07-4625-bf59-fa0ff8c1e660)
+
+![image](https://github.com/user-attachments/assets/42e0e724-0c9e-4545-9da7-46c637cecf82)
+
+![image](https://github.com/user-attachments/assets/3c519cda-a0dc-46bf-ba1f-2b93757cb368)
+
+![image](https://github.com/user-attachments/assets/5867c97f-2b5f-4fb2-bed8-57309e0cc5a9)
+
+
+[Propostas de valor.pdf](https://github.com/user-attachments/files/17926867/Propostas.de.valor.pdf)
 
 
 ## Requisitos
