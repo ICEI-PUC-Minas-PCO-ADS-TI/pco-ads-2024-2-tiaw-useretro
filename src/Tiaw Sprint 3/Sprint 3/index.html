@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catálogo de Camisas Retrô</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.png" alt="Logo">
+        </div>
+        <div class="menu-horizontal">
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Login/Cadastro</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </div>
+        <div class="barra-pesquisa">
+            <form id="form-pesquisa">
+                <input type="text" id="campo-pesquisa" placeholder="Buscar camisas...">
+                <button type="submit">🔍︎</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="container-principal">
+        <button class="botao-filtro-mobile" id="abrir-filtro-mobile">Filtrar</button>
+        <aside class="filtro-container" id="filtro-sidebar">
+            <button id="fechar-filtro-mobile" class="fechar-filtro">&times;</button>
+            <h2>Filtros</h2>
+            <div class="filtro-item">
+                <label for="ordenar-por">Ordenar por:</label>
+                <select id="ordenar-por">
+                    <option value="">Sem Ordenação</option>
+                    <option value="preco-asc">Preço: Menor ao Maior</option>
+                    <option value="preco-desc">Preço: Maior ao Menor</option>
+                    <option value="nome-asc">A ao Z</option>
+                    <option value="nome-desc">Z ao A</option>
+                </select>
+            </div>
+
+            <div class="filtro-item">
+                <label for="filtro-tamanho">Tamanho:</label>
+                <select id="filtro-tamanho">
+                    <option value="">Todos os Tamanhos</option>
+                    <option value="P">P</option>
+                    <option value="M">M</option>
+                    <option value="G">G</option>
+                    <option value="GG">GG</option>
+                    <option value="XG">XG</option>
+                </select>
+            </div>
+
+            <div class="filtro-item">
+                <label for="preco-minimo">Preço Mínimo:</label>
+                <input type="number" id="preco-minimo" min="0" placeholder="Sem mínimo">
+            </div>
+
+            <div class="filtro-item">
+                <label for="preco-maximo">Preço Máximo:</label>
+                <input type="number" id="preco-maximo" min="0" placeholder="Sem máximo">
+            </div>
+
+            <button id="aplicar-filtros">Aplicar Filtros</button>
+            <button id="remover-filtros">Remover Filtros</button>
+        </aside>
+
+        <main id="catalogo" class="catalogo-container"></main>
+    </div>
+
+    <div style="display: none;" class="desktop">
+        <div class="frame">
+            <div class="part-product">
+                <div class="frame6">
+                    <div class="button-action-scroll">
+                        <img class="image1" src="imagens/icons/01.svg" alt="Icon Left">
+                    </div>
+                    <div class="content-scroll-vertical">
+                        <div class="frame2">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                        <div class="frame3">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                        <div class="frame4">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                        <div class="frame5">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                    </div>
+                    <div class="button-action-scroll">
+                        <img class="image1" src="imagens/icons/02.svg" alt="Icon Right">
+                    </div>
+                </div>
+                <img class="image large" src="" alt="Produto">
+            </div>
+    
+            <div class="details">
+                <div class="title-close">
+                    <div class="title">Camisa Retro Grêmio - 2001</div>
+                    <div class="button-back">
+                        <img src="imagens/icons/06.svg" alt="">
+                    </div>
+                </div>
+                <div class="pricing">
+                    <div class="price">
+                        <span class="current-price">R$189,99</span>
+                        <!-- <span class="discount">-62% OFF</span> -->
+                    </div>
+                    <!-- <div class="original-price">R$499,99</div> -->
+                </div>
+                <div class="additional-info">
+                    <div class="installments">3 x de R$65,35 sem juros</div>
+                    <div class="pix-discount">
+                        <span class="highlight">10% de desconto</span>
+                        <span> pagando com Pix</span>
+                    </div>
+                    <div class="shipping">
+                        <img class="icon" src="imagens/icons/04.svg" alt="Icon">
+                        <span class="shipping-text">Frete grátis</span>
+                    </div>
+                </div>
+                <div class="sizes">
+                    <div class="size-info">Tamanho: <span class="size">P</span></div>
+                    <div class="size-options">
+                        <div class="size-box selected">P</div>
+                        <div class="size-box">M</div>
+                        <div class="size-box">G</div>
+                        <div class="size-box">GG</div>
+                        <div class="size-box">XG</div>
+                    </div>
+                </div>
+                <div class="purchase">
+                    <div class="quantity">
+                        <img src="imagens/icons/03.svg" alt="Decrease" class="decrease">
+                        <span>1</span>
+                        <img src="imagens/icons/05.svg" alt="Increase" class="increase">
+                    </div>
+                    <div class="buy-button">Comprar</div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <footer>
+        <p>&copy; 2024 useRetrô - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "product": {
+        "id": 1,
+        "name": "Camisa Grêmio Retrô",
+        "description": "Camisa retrô com o design exclusivo do time de 1990.",
+        "size": "M",
+        "team": "Grêmio",
+        "year": 2001,
+        "price": 189.90,
+        "image": "produto.jpg"
+    },
+    "cart": [
+        {
+            "productId": 1,
+            "quantity": 1,
+            "totalPrice": 189.90
+        }
+    ]
+}

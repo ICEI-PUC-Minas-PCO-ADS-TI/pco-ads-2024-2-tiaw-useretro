@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "nome": "Camisa Retro Atlético Mineiro - 1995",
+    "preco": 349.99,
+    "tamanhos": [
+      "P",
+      "M",
+      "XG"
+    ],
+    "imagens": [
+      "imagens/atletico.webp",
+      "imagens/atletico2.webp",
+      "imagens/atletico3.webp",
+      "imagens/atletico4.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Camisa Retro Cruzeiro - 1993/1994",
+    "preco": 349.99,
+    "tamanhos": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagens": [
+      "imagens/cruzeiro1.webp",
+      "imagens/cruzeiro2.webp",
+      "imagens/cruzeiro3.webp",
+      "imagens/cruzeiro4.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Camisa Retro São Paulo - 2000",
+    "preco": 369.99,
+    "tamanhos": [
+      "P",
+      "M",
+      "XG"
+    ],
+    "imagens": [
+      "imagens/saopaulo.webp",
+      "imagens/saopaulo2.webp",
+      "imagens/saopaulo3.webp",
+      "imagens/saopaulo4.webp"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Camisa Retro Vasco - 1998",
+    "preco": 299.99,
+    "tamanhos": [
+      "GG",
+      "XG"
+    ],
+    "imagens": [
+      "imagens/vasco1.webp",
+      "imagens/vasco2.webp",
+      "imagens/vasco3.webp",
+      "imagens/vasco4.webp"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Camisa Retro Grêmio - 1998",
+    "preco": 319.99,
+    "tamanhos": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagens": [
+      "imagens/gremio.webp",
+      "imagens/gremio2.webp",
+      "imagens/gremio3.webp",
+      "imagens/gremioteste.webp"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Camisa Retro Milan II - 2009/2010",
+    "preco": 399.99,
+    "tamanhos": [
+      "P",
+      "XG"
+    ],
+    "imagens": [
+      "imagens/milan.webp",
+      "imagens/milan2.webp",
+      "imagens/milan3.webp",
+      "imagens/milan4.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Camisa Retro Real Betis - 1995/1997",
+    "preco": 389.99,
+    "tamanhos": [
+      "M",
+      "G"
+    ],
+    "imagens": [
+      "imagens/betis1.webp",
+      "imagens/betis2.webp",
+      "imagens/betis3.webp",
+      "imagens/betis4.webp"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Camisa Retro Manchester United - 1994/1996",
+    "preco": 379.99,
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "imagens": [
+      "imagens/united1.webp",
+      "imagens/united2.webp",
+      "imagens/united3.webp",
+      "imagens/united4.webp"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Camisa Retro Juventus - 2001/2002",
+    "preco": 359.99,
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "imagens": [
+      "imagens/juventos1.webp",
+      "imagens/juventos2.webp",
+      "imagens/juventos3.webp",
+      "imagens/juventos4.webp"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Camisa Retro Barcelona - 1992/1995",
+    "preco": 409.99,
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "XG"
+    ],
+    "imagens": [
+      "imagens/barcelona1.webp",
+      "imagens/barcelona2.webp",
+      "imagens/barcelona3.webp",
+      "imagens/barcelona4.webp"
+    ]
+  }
+]
