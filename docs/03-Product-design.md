@@ -4,7 +4,23 @@
 
 ## Histórias de usuários
 
-**História de usuários**: [História de Usuários.pdf](https://github.com/user-attachments/files/17923979/Historia.de.Usuarios.pdf)
+**História de usuários**: 
+|EU COMO... `PERSONA`            | QUERO/PRECISO ... `FUNCIONALIDADE`                                       | PARA ... `MOTIVO/VALOR`                                             |
+|--------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------|
+|Usuário                        | Filtro para propostas a negociação                                       | Ser coerente com o valor que estarei disposto a pagar.             |
+|Usuário                        | Opção para realizar pagamento e verificação de vendedor e cliente       | Não quero que o valor se extravie.                                 |
+|Usuário                        | Boa visualização e descrição do produto                                 | Obter todas as informações necessárias para a compra.              |
+|Usuária                        | Adquirir camisas retros com ótima qualidade                             | Presentear e poder enquadrar com segurança no pagamento.           |
+|Usuária                        | Filtro para escolher por tamanho de camisas                             | Não visualizar produtos que não existem no meu tamanho.            |
+|Usuária                        | Opção de entrega expressa                                               | Receber rapidamente os produtos comprados.                         |
+|Usuária                        | Rastreamento do envio do pedido                                         | Me programar para estar em casa no dia da entrega.                 |
+|Usuário                        | Comprar camisas retro de qualidade e com segurança                      | Notificação e favoritos para adquirir camisas desejadas.           |
+
+
+
+
+
+[História de Usuários.pdf](https://github.com/user-attachments/files/17923979/Historia.de.Usuarios.pdf)
 
 ## Proposta de valor
 
