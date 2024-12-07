@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Seu Perfil</h1>
+        <button id="toggle-theme">Alternar Tema</button>
+    </header>
+    <main>
+        <div class="profile-container">
+            <section class="profile-left">
+                <img src="profile.jpg" alt="Profile Picture" id="profile-pic">
+                <input type="file" id="upload-image" style="display: none;">
+                <button id="change-image">Trocar Imagem</button>
+                <button id="edit-profile">Editar Perfil</button>
+            </section>
+            <section class="profile-right">
+                <h2>Informações do Usuário</h2>
+                <p><strong>Nome:</strong> <span id="user-name">Carregando...</span></p>
+                <p><strong>Email:</strong> <span id="user-email">Carregando...</span></p>
+                <div id="edit-section" style="display: none;">
+                    <input type="text" id="edit-name" placeholder="Editar Nome">
+                    <input type="email" id="edit-email" placeholder="Editar Email">
+                    <button id="save-profile">Salvar</button>
+                </div>
+                <h2>Histórico</h2>
+                <ul id="history-list">
+                    <li>Carregando Histórico...</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 useRetrô. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
