@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisas em Destaque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>useRetrô</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Login/Conta</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Camisas em Destaque</h1>
+        <div class="cards">
+            <div class="card">
+                <a href="#">
+                    <div class="imagem">
+                        <img src="CamisaAtleticoMg.jpeg" alt="Camisa Retro Atlético Mineiro - 1995">
+                    </div>
+                    <p>Camisa Retro Atlético Mineiro - 1995</p>
+                </a>
+                <p class="preco"><b>R$ 199,90</b></p>
+                <button>Comprar Agora</button>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="imagem">
+                        <img src="CamisaCruzeiro.jpeg" alt="Camisa Retro Cruzeiro - 1993/1994">
+                    </div>
+                    <p>Camisa Retro Cruzeiro - 1993/1994</p>
+                </a>
+                <p class="preco"><b>R$ 199,90</b></p>
+                <button>Comprar Agora</button>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="imagem">
+                        <img src="CamisaSaoPaulo.jpeg" alt="Camisa Retro São Paulo - 2000">
+                    </div>
+                    <p>Camisa Retro São Paulo - 2000</p>
+                </a>
+                <p class="preco"><b>R$ 199,90</b></p>
+                <button>Comprar Agora</button>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="imagem">
+                        <img src="CamisaGremio.jpg" alt="Camisa Retro Grêmio - 1998">
+                    </div>
+                    <p>Camisa Retro Grêmio - 1998</p>
+                </a>
+                <p class="preco"><b>R$ 199,90</b></p>
+                <button>Comprar Agora</button>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="imagem">
+                        <img src="CamisaVasco.jpeg" alt="Camisa Retro Vasco - 1998">
+                    </div>
+                    <p>Camisa Retro Vasco - 1998</p>
+                </a>
+                <p class="preco"><b>R$ 199,90</b></p>
+                <button>Comprar Agora</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 useRetrô - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById("nav-menu");
+            navMenu.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
