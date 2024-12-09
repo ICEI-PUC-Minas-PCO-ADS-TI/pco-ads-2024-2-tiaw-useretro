@@ -7,12 +7,6 @@
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados na parte de <a href="03-Product-design.md"> product design</a></span>.
 
- ## User flow
-
-
-
-
-
 ## Wireframes
 
 
