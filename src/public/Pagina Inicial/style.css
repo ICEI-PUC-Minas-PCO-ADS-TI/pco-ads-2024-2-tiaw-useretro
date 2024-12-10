@@ -1,0 +1,1211 @@
+/* Reset e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    /* Fundo preto */
+    padding: 10px 20px;
+    /* Ajustar padding para alinhar melhor o conteúdo */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* Alinhar logo, barra de pesquisa e menu na mesma linha */
+    justify-content: space-between;
+    /* Garantir espaço entre logo, menu e barra de pesquisa */
+    flex-wrap: nowrap;
+    /* Não permitir quebra de linha */
+}
+
+/* Contêiner da logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 130px;
+    /* Tamanho da logo ajustado */
+    height: auto;
+    /* Manter proporção */
+}
+
+/* Menu horizontal centralizado */
+.menu-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* Centralizar horizontalmente */
+    flex-grow: 1;
+    /* Permitir que o menu cresça para centralizar */
+    gap: 20px;
+    /* Espaçamento entre as opções do menu */
+}
+
+.menu-horizontal ul {
+    list-style-type: none;
+    /* Remover bullets */
+    padding-left: 0;
+    /* Remover padding à esquerda */
+    display: flex;
+    /* Exibir os itens do menu horizontalmente */
+    gap: 15px;
+    /* Espaçamento entre os itens do menu */
+    margin: 0;
+    /* Remover margens para garantir alinhamento */
+}
+
+.menu-horizontal li {
+    margin: 0;
+    /* Remover margens */
+}
+
+.menu-horizontal a {
+    text-decoration: none;
+    color: #ffffff;
+    /* Cor branca para os links */
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.menu-horizontal a:hover {
+    color: #a79603;
+    /* Cor diferente ao passar o mouse */
+}
+
+/* Barra de pesquisa */
+.barra-pesquisa {
+    margin-left: auto;
+    /* Garantir que a barra de pesquisa fique à direita */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Espaçamento entre campo e botão */
+    transition: all 0.3s ease;
+    /* Animação suave */
+}
+
+#form-pesquisa {
+    display: flex;
+    align-items: center;
+    /* Alinhar barra de pesquisa e botão na mesma linha */
+    gap: 10px;
+    /* Ajustar o espaçamento */
+}
+
+#campo-pesquisa {
+    padding: 12px;
+    width: 300px;
+    /* Largura da barra de pesquisa */
+    border: 1px solid #1f1b1b;
+    border-radius: 30px;
+    /* Bordas arredondadas para deixar o campo mais elegante */
+    font-size: 1em;
+    transition: all 0.3s ease;
+    /* Transição suave para foco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adicionar sombra ao campo */
+    background-color: #333333;
+    /* Cinza mais próximo do preto */
+    color: #ffffff;
+}
+
+#campo-pesquisa::placeholder {
+    color: #aaaaaa;
+    /* Cor do placeholder para ser mais visível em cinza escuro */
+}
+
+#campo-pesquisa:focus {
+    outline: none;
+    /* Remover o contorno padrão do navegador */
+    border: 1px solid #a79603;
+    /* Mudar cor da borda quando o campo estiver focado */
+    box-shadow: 0 6px 12px rgba(167, 150, 3, 0.5);
+    /* Aumentar a sombra no foco */
+}
+
+/* Estilo do botão de pesquisa */
+#form-pesquisa button {
+    padding: 12px 20px;
+    /* Ajuste do padding para deixar o botão mais destacado */
+    border: none;
+    background: linear-gradient(135deg, #a79603, #8d7300);
+    /* Gradiente para o botão */
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    /* Bordas arredondadas como o campo de pesquisa */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Transição suave para hover e foco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Sombra para dar destaque ao botão */
+}
+
+#form-pesquisa button:hover {
+    background: linear-gradient(135deg, #635101, #a79603);
+    /* Alterar o gradiente no hover */
+    transform: translateY(-3px);
+    /* Efeito de elevação ao passar o mouse */
+}
+
+#form-pesquisa button:active {
+    transform: translateY(1px);
+    /* Efeito de "pressionado" */
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        /* Permitir quebra de linha para ajustar o layout */
+        flex-direction: column;
+        /* Empilhar logo, menu e barra de pesquisa verticalmente */
+        align-items: center;
+        /* Centralizar os elementos do cabeçalho */
+    }
+
+    .menu-horizontal {
+        flex-direction: column;
+        /* Colocar o menu em coluna em telas menores */
+        align-items: center;
+        gap: 10px;
+        /* Espaçamento reduzido para itens de menu */
+    }
+
+    .barra-pesquisa {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* Garantir que a barra de pesquisa esteja centralizada */
+        margin: 10px 0;
+        /* Ajuste da margem para dar espaço em telas menores */
+    }
+
+    #campo-pesquisa {
+        width: 200px;
+        /* Reduzir a largura da barra de pesquisa para caber em telas menores */
+    }
+
+    #form-pesquisa button {
+        padding: 10px 15px;
+        /* Ajustar o padding do botão de pesquisa para telas menores */
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        /* Empilhar logo, menu e barra de pesquisa verticalmente */
+        align-items: center;
+    }
+
+    .menu-horizontal {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        /* Diminuir o gap para itens de menu */
+    }
+
+    .barra-pesquisa {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #campo-pesquisa {
+        width: 150px;
+        /* Largura ainda menor para caber melhor em smartphones */
+        padding: 10px;
+        /* Padding ajustado para compactar o campo */
+    }
+
+    #form-pesquisa button {
+        padding: 10px 15px;
+        /* Padding reduzido no botão de pesquisa */
+    }
+}
+
+/* Responsividade para telas muito pequenas (ex. 480px) */
+@media (max-width: 480px) {
+    .menu-horizontal ul {
+        flex-direction: column;
+        /* Menu em coluna para melhor adaptação */
+        gap: 8px;
+        /* Ajuste no espaçamento */
+    }
+
+    .card {
+        width: 100%;
+        /* Cards devem ocupar a largura total disponível */
+        height: 370px;
+        /* Altura aumentada para melhor acomodação das imagens */
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        /* Manter a proporção da imagem */
+        max-height: 260px;
+        /* Aumentar a altura máxima da imagem para uma visualização mais confortável */
+        object-fit: contain;
+        /* Ajuste para que a imagem fique bem enquadrada */
+    }
+
+    #campo-pesquisa {
+        width: 120px;
+        /* Barra de pesquisa ainda mais compacta */
+    }
+}
+
+.carrossel h1 {
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+/* Animação de transição do menu */
+nav ul li a {
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: translateY(-5px);
+}
+
+/* Carrossel de Imagens */
+.carrossel {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+/* Botões de Controle do Carrossel */
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.controls button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.container h1:first-child {
+    font-size: 2em;
+}
+
+/* Cards de Camisas */
+.card {
+    margin: 20px 0px 40px 0;
+}
+
+.card h1 {
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    background-color: #fff;
+    width: 18%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card-item:hover {
+    transform: scale(1.05);
+}
+
+.card-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-item .preco {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-item button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-item button:hover {
+    background-color: #444;
+}
+
+/* Contêiner do catálogo de camisas */
+.catalogo-container {
+    width: 100%;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Exibir exatamente 5 cartões por linha */
+    gap: 20px 50px;
+    /* Espaço entre colunas: 20px; Espaço entre linhas: 50px */
+    align-items: start;
+}
+
+/* Estilo dos cards de camisas */
+.card {
+    cursor: pointer;
+    background-color: #ffffff;
+    /* Branco */
+    padding: 10px;
+    /* Padding levemente ajustado */
+    border-radius: 8px;
+    /* Cantos levemente arredondados */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 4px solid #080808;
+    /* Barra de cor no topo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Distribui uniformemente os elementos no cartão */
+    height: 280px;
+    /* Altura fixa reduzida para deixar os cartões mais baixos */
+    width: 100%;
+    /* Largura ajustada para um pouco mais larga */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    height: 160px;
+    /* Altura aumentada para melhorar a visibilidade das imagens */
+    border-radius: 8px;
+    /* Redução do arredondamento das imagens */
+    margin-bottom: 5px;
+    /* Menor margem inferior */
+    transition: transform 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+/* Garantir que os títulos tenham altura consistente */
+.card h3 {
+    font-size: 0.9em;
+    /* Tamanho da fonte ajustado */
+    margin: 3px 0;
+    /* Margem reduzida */
+    color: #333333;
+    /* Cinza escuro */
+    font-weight: 600;
+    min-height: 35px;
+    /* Definindo uma altura mínima menor para os títulos */
+    display: flex;
+    align-items: center;
+    /* Centraliza o texto verticalmente se for menor que o min-height */
+    justify-content: center;
+    /* Garante que o título seja centralizado horizontalmente */
+}
+
+.card .preco {
+    color: #39743b;
+    /* Verde suave para destaque */
+    font-size: 0.9em;
+    /* Tamanho da fonte ajustado */
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* Menor margem inferior */
+}
+
+/* Estilo dos tamanhos disponíveis */
+.card .tamanhos-disponiveis {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Menor espaçamento entre os tamanhos */
+    margin-top: 15px;
+    /* Menor espaçamento superior */
+}
+
+.card .tamanho {
+    width: 25px;
+    /* Ajuste no tamanho dos blocos de tamanho */
+    height: 20px;
+    /* Ajuste no tamanho dos blocos de tamanho */
+    background-color: #1c1c1c;
+    /* Preto */
+    color: #ffffff;
+    /* Branco */
+    font-size: 0.7em;
+    /* Tamanho da fonte ajustado */
+    font-weight: bold;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card .tamanho:hover {
+    background-color: #333333;
+    /* Cinza escuro no hover */
+    transform: translateY(-2px);
+}
+
+/* Estilo do menu móvel */
+.menu-mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1c;
+    z-index: 1000;
+    padding-top: 60px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.menu-mobile.active {
+    transform: translateX(0);
+}
+
+.menu-mobile ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-mobile ul li {
+    margin: 20px 0;
+}
+
+.menu-mobile ul li a {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu-mobile ul li a:hover {
+    color: #a79603;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        /* Permitir quebra de linha para ajustar o layout */
+        flex-direction: column;
+        /* Empilhar logo, menu e barra de pesquisa verticalmente */
+        align-items: center;
+        /* Centralizar os elementos do cabeçalho */
+    }
+
+    footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px 20px;
+        margin-top: auto;
+        width: auto;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+
+    .menu-horizontal {
+        flex-direction: column;
+        /* Colocar o menu em coluna em telas menores */
+        align-items: center;
+        gap: 10px;
+        /* Espaçamento reduzido para itens de menu */
+    }
+
+    .barra-pesquisa {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* Garantir que a barra de pesquisa esteja centralizada */
+        margin: 10px 0;
+        /* Ajuste da margem para dar espaço em telas menores */
+    }
+
+    #campo-pesquisa {
+        width: 200px;
+        /* Reduzir a largura da barra de pesquisa para caber em telas menores */
+    }
+
+    #form-pesquisa button {
+        padding: 10px 15px;
+        /* Ajustar o padding do botão de pesquisa para telas menores */
+    }
+
+    .container-principal {
+        flex-direction: column;
+        /* Organizar filtro e catálogo em coluna */
+        align-items: center;
+    }
+
+    .catalogo-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        /* Ajustar a grade para ser responsiva e se adaptar a telas menores */
+        gap: 15px 20px;
+        /* Reduzir o espaçamento para melhorar a apresentação */
+    }
+
+    .card {
+        max-width: 100%;
+        /* Ajustar a largura dos cards para ocupar o máximo disponível */
+        height: 350px;
+        /* Aumentar a altura dos cards para melhor encaixar as imagens */
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        /* Manter a proporção da imagem */
+        max-height: 220px;
+        /* Aumentar a altura máxima em telas menores */
+        object-fit: contain;
+        /* Garantir que a imagem seja totalmente exibida sem corte */
+        border-radius: 8px;
+        /* Manter o arredondamento consistente */
+    }
+
+    .filtro-container {
+        display: none;
+        /* Ocultar o filtro lateral inicialmente em telas menores */
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80%;
+        max-width: 400px;
+        height: 100%;
+        background: #1c1c1c;
+        /* Fundo preto */
+        box-shadow: -3px 0 6px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        padding: 20px;
+        /* Ajustar padding */
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+        /* Esconder fora da tela inicialmente */
+    }
+
+    .filtro-container.ativo {
+        transform: translateX(0);
+        /* Mostrar o filtro ao ser ativado */
+        display: block;
+    }
+
+    .botao-filtro-mobile {
+        display: block;
+        /* Mostrar o botão de filtro para telas menores */
+        padding: 10px 20px;
+        background-color: #a79603;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    /* Ajustar o botão de fechar filtro */
+    .fechar-filtro {
+        display: block;
+        width: 100%;
+        /* Ajustar a largura para ser igual aos outros campos */
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 0px;
+        /* Espaço entre o botão "X" e o conteúdo */
+        cursor: pointer;
+    }
+}
+
+/* Responsividade geral para dispositivos muito pequenos (ex. smartphones) */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        /* Empilhar logo, menu e barra de pesquisa verticalmente */
+        align-items: center;
+    }
+
+    .menu-horizontal {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        /* Diminuir o gap para itens de menu */
+    }
+
+    .barra-pesquisa {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #campo-pesquisa {
+        width: 150px;
+        /* Largura ainda menor para caber melhor em smartphones */
+        padding: 10px;
+        /* Padding ajustado para compactar o campo */
+    }
+
+    #form-pesquisa button {
+        padding: 10px 15px;
+        /* Padding reduzido no botão de pesquisa */
+    }
+
+    .catalogo-container {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        /* Uma coluna ou mais dependendo do tamanho da tela */
+        gap: 10px 15px;
+        /* Espaçamento reduzido para telas menores */
+    }
+
+    .card {
+        max-width: 100%;
+        /* Ocupar a largura total em dispositivos menores */
+        height: 360px;
+        /* Aumentar a altura dos cards para melhorar o layout */
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        /* Ajuste para manter a proporção da imagem */
+        max-height: 240px;
+        /* Ajustar a altura máxima da imagem para melhor apresentação */
+        object-fit: contain;
+        /* Garantir que a imagem seja visível sem cortes */
+        border-radius: 8px;
+        /* Manter bordas arredondadas */
+    }
+}
+
+/* Responsividade para telas muito pequenas (ex. 480px) */
+@media (max-width: 480px) {
+    .menu-horizontal ul {
+        flex-direction: column;
+        /* Menu em coluna para melhor adaptação */
+        gap: 8px;
+        /* Ajuste no espaçamento */
+    }
+
+    .card {
+        width: 100%;
+        /* Cards devem ocupar a largura total disponível */
+        height: 370px;
+        /* Altura aumentada para melhor acomodação das imagens */
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        /* Manter a proporção da imagem */
+        max-height: 260px;
+        /* Aumentar a altura máxima da imagem para uma visualização mais confortável */
+        object-fit: contain;
+        /* Ajuste para que a imagem fique bem enquadrada */
+    }
+
+    #campo-pesquisa {
+        width: 120px;
+        /* Barra de pesquisa ainda mais compacta */
+    }
+
+    .catalogo-container {
+        grid-template-columns: 1fr;
+        /* Apenas um card por linha para maximizar a visibilidade */
+    }
+
+    .filtro-container {
+        padding: 15px;
+        /* Padding menor para melhor uso do espaço */
+    }
+}
+
+/* Responsividade para desktops maiores */
+@media (min-width: 801px) {
+    .botao-filtro-mobile {
+        display: none;
+        /* Ocultar o botão de filtro em desktops */
+    }
+
+    .fechar-filtro {
+        display: none;
+        /* Esconder o botão de fechar filtro em desktops */
+    }
+
+    .filtro-container {
+        display: flex;
+        /* Mostrar o filtro lateral em desktops */
+        position: static;
+        width: 200px;
+        /* Largura padrão do filtro em desktops */
+        height: auto;
+        box-shadow: none;
+        /* Remover sombra */
+        padding: 15px;
+        /* Padding ajustado */
+    }
+
+    .catalogo-container {
+        grid-template-columns: repeat(5, 1fr);
+        /* Retornar para cinco colunas por linha */
+        gap: 20px 50px;
+        /* Espaçamento regular para uma boa apresentação */
+    }
+
+    .card {
+        /* Retornar ao tamanho definido para desktops */
+        height: fit-content;
+        /* Aumentar a altura para melhor visualização */
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        /* Manter a proporção da imagem */
+        max-height: 250px;
+        /* Ajustar a altura máxima da imagem */
+        object-fit: contain;
+        /* Ajuste para que a imagem fique bem enquadrada sem cortes */
+        border-radius: 8px;
+        /* Bordas arredondadas como definido anteriormente */
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.desktop {
+
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.frame {
+    display: flex;
+    width: 1440px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-scroll-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    overflow: hidden;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+.frame6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.button-action-scroll {
+    padding: 7px 8px;
+    background: #d7d7d7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.part-product {
+    display: flex;
+    gap: 15px;
+}
+
+.image {
+    flex: 1;
+    width: 100%;
+    height: 140px;
+}
+
+.large {
+    width: 100%;
+    height: 60vh;
+    min-width: 300px;
+}
+
+.title-close {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.button-back {
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    background-color: #d7d7d7;
+}
+
+.details {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding: 30px 0;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.current-price {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.discount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4476d2;
+}
+
+.original-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a6a6a6;
+    text-decoration: line-through;
+}
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.installments,
+.pix-discount {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pix-discount .highlight {
+    color: #4476d2;
+}
+
+.shipping {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.shipping-text {
+    color: #4476d2;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.size-info {
+    font-size: 16px;
+}
+
+.size {
+    font-weight: 600;
+}
+
+.size-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.size-box {
+    transition: 0.2s ease background;
+    padding: 10px 14px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.size-box:hover {
+    border-color: #515151;
+    background: #ededed;
+}
+
+.size-box.selected {
+    border-color: #515151;
+    background: #ededed;
+}
+
+.purchase {
+    display: flex;
+    flex: 1;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding: 16px 18px;
+    border: 1px solid #cacaca;
+    gap: 36px;
+}
+
+.quantity img {
+    cursor: pointer;
+}
+
+.buy-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 16px 18px;
+    background: #515151;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .frame {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content-scroll-vertical {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .button-action-scroll img {
+        transform: rotate(-90deg);
+    }
+
+    .image {
+        height: 100%;
+    }
+
+    .frame6 {
+        flex-direction: row;
+    }
+
+    .part-product {
+        flex-direction: column;
+
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .carrossel {
+        max-width: 100%;
+    }
+
+    .search-container {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .controls button {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+/* Cards de Camisas (Responsivo) */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>useRetrô - Camisas Retrô de Futebol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <a href="../Pagina Inicial/index.html"><img src="logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="menu-horizontal">
+            <ul>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Pagina Inicial/index.html">Página Inicial</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Catalago/index.html">Catálogo</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/CadastroDeProduto/CadastroDeProdutos/index.html">Vender</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Login/index.html">Login/Cadastro</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/SobreNos/index.html">Sobre Nós</a></li>
+            </ul>
+        </div>
+        <div class="barra-pesquisa">
+            <form id="form-pesquisa">
+                <input type="text" id="campo-pesquisa" placeholder="Buscar camisas...">
+                <button type="submit">🔍︎</button>
+            </form>
+        </div>
+    </header>
+
+
+    <!-- Carrossel -->
+    <section class="carrossel">
+        <h1>Camisas em Promoção</h1>
+        <div class="slider">
+            <div class="slide">
+                <img src="i1.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="i2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="i3.png" alt="Imagem 3">
+            </div>
+        </div>
+        <div class="controls">
+            <button class="prev" onclick="mudarSlide(-1)">❮</button>
+            <button class="next" onclick="mudarSlide(1)">❯</button>
+        </div>
+    </section>
+
+    <!-- Cards de Destaque -->
+    <section class="container">
+        <h1>Camisas em Destaque</h1>
+        <main id="catalogo" class="catalogo-container"></main>
+    </section>
+
+    <!-- Produtos -->
+    <div style="display: none;" class="desktop">
+        <div class="frame">
+            <div class="part-product">
+                <div class="frame6">
+                    <div class="button-action-scroll">
+                        <img class="image1" src="../imagens/icons/01.svg" alt="Icon Left">
+                    </div>
+                    <div class="content-scroll-vertical">
+                        <div class="frame2">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                        <div class="frame3">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                        <div class="frame4">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                        <div class="frame5">
+                            <img class="image thumbnail" src="" alt="Thumbnail">
+                        </div>
+                    </div>
+                    <div class="button-action-scroll">
+                        <img class="image1" src="../imagens/icons/02.svg" alt="Icon Right">
+                    </div>
+                </div>
+                <img class="image large" src="" alt="Produto">
+            </div>
+
+            <div class="details">
+                <div class="title-close">
+                    <div class="title">Camisa Retro Grêmio - 2001</div>
+                    <div class="button-back">
+                        <img src="../imagens/icons/06.svg" alt="">
+                    </div>
+                </div>
+                <div class="pricing">
+                    <div class="price">
+                        <span class="current-price">R$189,99</span>
+                        <!-- <span class="discount">-62% OFF</span> -->
+                    </div>
+                    <!-- <div class="original-price">R$499,99</div> -->
+                </div>
+                <div class="additional-info">
+                    <div class="installments">3 x de R$65,35 sem juros</div>
+                    <div class="pix-discount">
+                        <span class="highlight">10% de desconto</span>
+                        <span> pagando com Pix</span>
+                    </div>
+                    <div class="shipping">
+                        <img class="icon" src="../imagens/icons/04.svg" alt="Icon">
+                        <span class="shipping-text">Frete grátis</span>
+                    </div>
+                </div>
+                <div class="sizes">
+                    <div class="size-info">Tamanho: <span class="size">P</span></div>
+                    <div class="size-options">
+                        <div class="size-box selected">P</div>
+                        <div class="size-box">M</div>
+                        <div class="size-box">G</div>
+                        <div class="size-box">GG</div>
+                        <div class="size-box">XG</div>
+                    </div>
+                </div>
+                <div class="purchase">
+                    <div class="quantity">
+                        <img src="../imagens/icons/03.svg" alt="Decrease" class="decrease">
+                        <span>1</span>
+                        <img src="../imagens/icons/05.svg" alt="Increase" class="increase">
+                    </div>
+                    <div class="buy-button">Comprar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 useRetrô - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

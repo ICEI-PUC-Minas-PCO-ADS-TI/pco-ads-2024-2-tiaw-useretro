@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Administrador</title>
+    <link rel="stylesheet" href="admin.css">
+    <script src="admin.js" defer></script>
+</head>
+<body>
+    <!-- Menu do site -->
+    <header>
+        <div class="logo">
+            <a href="/useRetrô/Pagina Inicial/index.html"><img src="logo.png" alt="Logo">
+            </a></div>
+        <div class="menu-horizontal">
+            <ul>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Pagina Inicial/index.html">Página Inicial</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Catalago/index.html">Catálogo</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/CadastroDeProduto/CadastroDeProdutos/index.html">Vender</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Login/index.html">Login/Cadastro</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/SobreNos/index.html">Sobre Nós</a></li>
+                 </ul>
+        </div>
+        <div class="barra-pesquisa">
+            <form id="form-pesquisa">
+                <input type="text" id="campo-pesquisa" placeholder="Buscar camisas...">
+                <button type="submit">🔍︎</button>
+            </form>
+        </div>
+    </header>
+
+        <main>
+            <!-- Informações do Administrador -->
+            <section class="admin-info">
+                <div class="admin-details">
+                    <h2>Administrador</h2>
+                    <p><strong>Email:</strong> adm1@useretro.com.br</p>
+                    <p><strong>Funções:</strong> Gerenciamento de produtos, análise de mensagens, exportação de relatórios.</p>
+                </div>
+            </section>
+    
+            <!-- Gráfico e Explicação -->
+            <section class="grafico">
+                
+                <h2>Análise de Camisas</h2>
+                <div class="grafico-imagem">
+                    <img src="grafico.png" alt="Gráfico de camisas cadastradas">
+                </div>
+                <div class="grafico-texto">
+                    <p>O gráfico ao lado apresenta dados fictícios sobre as camisas cadastradas no sistema ao longo do tempo. Utilize essas informações para ajustar estratégias de vendas e gerenciamento.</p>
+                </div>
+            </section>
+    
+            <!-- Últimas Camisas Cadastradas -->
+            <section class="ultimas-camisas">
+                <h2>Últimas Camisas Cadastradas</h2>
+                <div class="cards-container">
+                    <div class="cards">
+                        <div class="card-item">
+                            <a href="#">
+                                <div class="imagem">
+                                    <img src="CamisaAtleticoMg.jpeg" alt="Camisa Retro Atlético Mineiro - 1995">
+                                </div>
+                                <p>Camisa Retro Atlético Mineiro - 1995</p>
+                            </a>
+                            <p class="preco"><b>R$ 199,90</b></p>
+                        </div>
+                        <div class="card-item">
+                            <a href="#">
+                                <div class="imagem">
+                                    <img src="CamisaCruzeiro.jpeg" alt="Camisa Retro Cruzeiro - 1993/1994">
+                                </div>
+                                <p>Camisa Retro Cruzeiro - 1993/1994</p>
+                            </a>
+                            <p class="preco"><b>R$ 199,90</b></p>
+                        </div>
+                        <div class="card-item">
+                            <a href="#">
+                                <div class="imagem">
+                                    <img src="CamisaSaoPaulo.jpeg" alt="Camisa Retro São Paulo - 2000">
+                                </div>
+                                <p>Camisa Retro São Paulo - 2000</p>
+                            </a>
+                            <p class="preco"><b>R$ 199,90</b></p>
+                        </div>
+                        <div class="card-item">
+                            <a href="#">
+                                <div class="imagem">
+                                    <img src="CamisaGremio.jpg" alt="Camisa Retro Grêmio - 1998">
+                                </div>
+                                <p>Camisa Retro Grêmio - 1998</p>
+                            </a>
+                            <p class="preco"><b>R$ 199,90</b></p>
+                        </div>
+                        <div class="card-item">
+                            <a href="#">
+                                <div class="imagem">
+                                    <img src="CamisaVasco.jpeg" alt="Camisa Retro Vasco - 1998">
+                                </div>
+                                <p>Camisa Retro Vasco - 1998</p>
+                            </a>
+                            <p class="preco"><b>R$ 199,90</b></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Mensagens de Contato -->
+            <section class="mensagens-contato">
+                <h2>Mensagens de Contato</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Número</th>
+                            <th>Email</th>
+                            <th>Comentário</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="messages-table">
+                        <!-- Linhas de mensagens serão inseridas dinamicamente -->
+                    </tbody>
+                </table>
+            </section>
+    
+            <!-- Exportar para PDF -->
+            <button id="export-pdf">Exportar para PDF</button>
+        </main>
+    
+        <!-- Rodapé do site -->
+        <footer>
+            <p>&copy; 2024 useRetrô - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    </html>
+    
