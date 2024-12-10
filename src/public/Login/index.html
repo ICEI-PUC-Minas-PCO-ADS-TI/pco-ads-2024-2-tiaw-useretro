@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>useRetrô - Login</title>
+    <style>
+        :root {
+            --preto: #000;
+            --cinza-escuro: #333;
+            --cinza-claro: #f0f0f0;
+            --cinza-clarissimo: #f8f8f8;
+            --branco: #fff;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--cinza-clarissimo);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: var(--branco);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: var(--preto);
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--cinza-escuro);
+        }
+
+        input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid var(--cinza-claro);
+            border-radius: 4px;
+            background-color: var(--cinza-clarissimo);
+        }
+
+        button {
+            width: 100%;
+            padding: 0.8rem;
+            background-color: var(--cinza-escuro);
+            color: var(--branco);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            background-color: var(--preto);
+        }
+
+        .toggle {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .toggle a {
+            color: var(--cinza-escuro);
+            text-decoration: none;
+        }
+
+        .toggle a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="form-title">Login</h1>
+        <form id="auth-form">
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" id="submit-btn">Entrar</button>
+        </form>
+        <div class="toggle">
+            <span id="toggle-text">Não tem uma conta? <a href="#" id="toggle-link">Cadastre-se</a></span>
+        </div>
+    </div>
+
+    <script>
+        const authForm = document.getElementById('auth-form');
+        const toggleLink = document.getElementById('toggle-link');
+        const formTitle = document.getElementById('form-title');
+        const toggleText = document.getElementById('toggle-text');
+
+        toggleLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            const userTypeSelection = document.createElement('div');
+            userTypeSelection.innerHTML = `
+                <h1>Escolha o tipo de cadastro</h1>
+                <button id="cliente-btn">Cliente</button>
+                <button id="vendedor-btn">Vendedor</button>
+            `;
+            document.body.innerHTML = '';
+            document.body.appendChild(userTypeSelection);
+
+            document.getElementById('cliente-btn').addEventListener('click', () => {
+                window.location.href = '/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Cadastro usuario/index.html';
+            });
+
+            document.getElementById('vendedor-btn').addEventListener('click', () => {
+                window.location.href = '/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/cadastro vendedor/cadastro_cliente.html';
+            });
+        });
+
+        authForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData(authForm);
+            alert(`Fazendo login com o e-mail: ${formData.get('email')}`);
+            document.getElementById('submit-btn').addEventListener('click', () => {
+                window.location.href = '/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Pagina Inicial/index.html';
+            });
+        
+        });
+
+       
+
+authForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    // Verifica as credenciais
+    if (email === "adm1@useretro.com.br" && password === "123") {
+        window.location.href = '/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/PerfilAdm/index.html';
+    } else {
+        window.location.href = '/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Pagina Inicial/index.html';
+    }
+});
+    </script>
+</body>
+</html>
