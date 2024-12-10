@@ -1,0 +1,21 @@
+{
+    "vendedores": [
+      {
+        "id": 1,
+        "nome": "João da Silva",
+        "email": "joao.silva@email.com",
+        "telefone": "(11) 91234-5678",
+        "endereco": "Rua A, 123",
+        "cpf": "12345678901"
+      },
+      {
+        "id": 2,
+        "nome": "Maria Oliveira",
+        "email": "maria.oliveira@email.com",
+        "telefone": "(21) 99876-5432",
+        "endereco": "Rua B, 456",
+        "cpf": "10987654321"
+      }
+    ]
+  }
+  
