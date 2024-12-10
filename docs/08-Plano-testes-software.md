@@ -8,35 +8,69 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico, 
 
 Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s) requisito(s) associado(s) a cada um deles esteja(m) correto(s) — de acordo com o que foi definido na <a href="03-Product-design.md">Especificação do projeto</a>.
 
-Por exemplo:
+# Plano de Testes de Software
 
-| **Caso de teste**  | **CT-001 – Cadastrar perfil**  |
-|:---: |:---: |
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que estes consigam criar e gerenciar seu perfil. |
-| Objetivo do teste | Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-| Critério de êxito | - O cadastro foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+## Caso de teste: CT-001 – Exibição de Produtos em Destaque
+| **Atributo** | **Descrição** |
+|:---:|:---|
+| **Requisito associado** | RF-001 - Exibição de produtos em destaque. |
+| **Objetivo do teste** | Verificar se os produtos populares ou em promoção são exibidos corretamente na página inicial. |
+| **Passos** | - Acessar o site<br> - Verificar a seção de produtos em destaque<br> - Conferir se os produtos exibidos possuem as informações de imagem, descrição e preço |
+| **Critério de êxito** | - Os produtos são exibidos corretamente com todas as informações detalhadas. |
+| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
 
-<br>
+---
 
-| **Caso de teste**  | **CT-002 – Efetuar login**  |
-|:---: |:---: |
-| Requisito associado | RF-00Y - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do teste | Verificar se o usuário consegue realizar login. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo de senha <br> - Clicar em "Login" |
-| Critério de êxito | - O login foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+## Caso de teste: CT-002 – Funcionamento do Menu de Navegação
+| **Atributo** | **Descrição** |
+|:---:|:---|
+| **Requisito associado** | RF-002 - Menu de navegação. |
+| **Objetivo do teste** | Validar a navegação entre as categorias, novidades, ofertas e informações da loja. |
+| **Passos** | - Acessar o site<br> - Clicar em cada opção do menu<br> - Verificar se a página correspondente é carregada corretamente |
+| **Critério de êxito** | - Todas as opções do menu redirecionam corretamente. |
+| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
 
+---
 
-## Ferramentas de testes (opcional)
+## Caso de teste: CT-003 – Exibição do Banner Promocional
+| **Atributo** | **Descrição** |
+|:---:|:---|
+| **Requisito associado** | RF-003 - Banner ou slider. |
+| **Objetivo do teste** | Garantir que o banner ou slider exibe imagens promocionais corretamente. |
+| **Passos** | - Acessar o site<br> - Verificar o carregamento das imagens no banner<br> - Observar a transição automática ou manual das imagens |
+| **Critério de êxito** | - As imagens promocionais são exibidas e alternam corretamente. |
+| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links úteis**:
-> - [IBM - criação e geração de planos de teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e técnicas de testes ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de software: conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e geração de planos de teste de software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+---
+
+## Caso de teste: CT-004 – Sistema de Busca
+| **Atributo** | **Descrição** |
+|:---:|:---|
+| **Requisito associado** | RF-013 - Sistema de busca. |
+| **Objetivo do teste** | Verificar se a barra de busca localiza produtos corretamente. |
+| **Passos** | - Acessar o site<br> - Inserir um termo de busca (nome, time ou categoria)<br> - Conferir os resultados retornados |
+| **Critério de êxito** | - O sistema retorna resultados relevantes e corretos. |
+| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+
+---
+
+## Caso de teste: CT-005 – Responsividade
+| **Atributo** | **Descrição** |
+|:---:|:---|
+| **Requisito associado** | RNF-004 - Responsividade. |
+| **Objetivo do teste** | Garantir que o site é exibido corretamente em diferentes dispositivos e tamanhos de tela. |
+| **Passos** | - Acessar o site em um navegador de desktop<br> - Acessar o site em um dispositivo móvel (smartphone e tablet)<br> - Verificar a adaptação do layout |
+| **Critério de êxito** | - O site é exibido corretamente em todos os dispositivos testados. |
+| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+
+---
+
+## Caso de teste: CT-006 – Processo de Checkout
+| **Atributo** | **Descrição** |
+|:---:|:---|
+| **Requisito associado** | RF-015 e RNF-001 - Processo de checkout. |
+| **Objetivo do teste** | Verificar se o usuário consegue realizar o checkout do carrinho de compras. |
+| **Passos** | - Adicionar itens ao carrinho<br> - Acessar o carrinho<br> - Preencher os dados de envio e pagamento<br> - Finalizar a compra |
+| **Critério de êxito** | - O pedido é confirmado com sucesso. |
+| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+
