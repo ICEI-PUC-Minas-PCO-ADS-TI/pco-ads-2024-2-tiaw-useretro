@@ -1,109 +1,63 @@
-# Arquitetura da solução
+Documentação de Arquitetura de Software
+1. Visão Geral da Solução
+A solução do site useRetrô surge da crescente demanda por produtos que remetem à nostalgia, em especial camisas retrô de times de futebol, que têm se tornado itens de colecionador e moda casual. Atualmente, muitas pessoas têm dificuldade em encontrar plataformas confiáveis que centralizem a compra, venda e troca dessas camisas. Além disso, a falta de opções intuitivas e bem-organizadas limita a experiência do usuário, afastando possíveis compradores e vendedores desse mercado. A arquitetura é construída utilizando uma combinação de HTML, CSS, JSON e JavaScript. Estes componentes trabalham juntos para fornecer uma interface de usuário interativa, estilizada e funcional.
+2. Componentes Principais
+HTML: Estrutura básica da página
+⦁	index.html: Página principal que carrega outros componentes.
+⦁	header.html, footer.html: Inclusões de cabeçalhos e rodapés reutilizáveis.
+CSS: Estilos da página
+⦁	styles.css: Arquivo principal de estilo.
+⦁	responsive.css: Arquivo de estilos responsivos para dispositivos móveis.
+JavaScript:
+⦁	main.js: Lógica principal de interação com o DOM.
+⦁	utils.js: Funções auxiliares, como validação de formulários.
+JSON:
+⦁	config.json: Arquivo de configuração para definir parâmetros do sistema.
+⦁	data.json: Arquivo de configuração de dados em formato JSON.
+3. Arquitetura do Sistema
+O sistema segue uma arquitetura cliente-servidor, onde o cliente (navegador) envia requisições HTTP e o servidor processa essas requisições.
+3.1. Fluxo de Dados
+Frontend (HTML + CSS + JavaScript):
+⦁	O navegador solicita a página HTML, que contém a estrutura básica do site.
+⦁	O CSS é aplicado para definir o estilo visual.
+⦁	O JavaScript é usado para manipular os dados em tempo real, fazer requisições AJAX ou Fetch para o servidor e atualizar a interface sem recarregar a página (usando JSON para dados).
+4. Funcionalidades
+Cadastro de Usuários
+Permite que os usuários (incluindo administradores) se cadastrem, tendo seus dados e segurança após o login no sistema.
+Estrutura de dados: Cadastro
+Instruções de acesso:
+⦁	Abra o site e efetue o login.
+⦁	Acesse o menu principal e escolha a opção "Cadastro de Usuários".
+⦁	Em seguida, preencha com seus dados (seja de um usuário comum ou de um administrador).
+5. Tela de Funcionalidade
+ ![Captura de tela 2024-12-07 173833](https://github.com/user-attachments/assets/f1589a5f-cdd9-4e1d-abe2-1fbf49edca68)
+Após o usuário inserir deus dados e sua senha ele ira  aperta cadastrar, e assim ele terá seja ele cliente a sua interface de cliente (tela incial) e seja ele um administrador a sua interface de (ADM).
 
-<span style="color:red">Pré-requisitos: <a href="05-Projeto-interface.md"> Projeto de interface</a></span>
+6. Estrutura de dados
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Json :
 
-![Arquitetura da solução](images/exemplo-arquitetura.png)
-
-## Funcionalidades
-
-Esta seção apresenta as funcionalidades da solução.
-
-##### Funcionalidade 1 - Cadastro de contatos ⚠️ EXEMPLO ⚠️
-
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
-
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
-* **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
-* **Tela da funcionalidade**:
-
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários, quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) títulos e descrição da funcionalidade; (2) estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
-
-### Estruturas de dados
-
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info.
-
-##### Estrutura de dados - Contatos
-
-Contatos da aplicação
-
-```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
-  
-```
-
-##### Estrutura de dados - Usuários  ⚠️ EXEMPLO ⚠️
-
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema.
-
-```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
-```
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação, quanto outras estruturas que foram criadas para algum tipo de configuração.
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
->
-> **Orientações:**
->
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
-
-### Módulos e APIs
-
-Esta seção apresenta os módulos e APIs utilizados na solução.
-
-**Images**:
-
-* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
-
-**Fonts:**
-
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
-
-**Scripts:**
-
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
+{
+    "usuarios": []
+}
 
 
-## Hospedagem
+7. Hospedagem do Website
+A hospedagem da plataforma useRetrô foi realizada utilizando o GitHub Pages. Esta plataforma oferece uma maneira simples e eficiente de publicar sites estáticos (HTML, CSS e JavaScript) diretamente de um repositório GitHub. O GitHub Pages é uma excelente opção para projetos como o useRetrô, pois permite que a solução seja acessada por qualquer usuário com um navegador, sem a necessidade de configurar servidores complexos.
+Passos para publicação com GitHub Pages:
+⦁	Criação do Repositório no GitHub: Foi criado um repositório no GitHub contendo todos os arquivos necessários para a plataforma: HTML, CSS, JavaScript e arquivos JSON.
+⦁	Configuração do GitHub Pages: Após o repositório ser configurado e os arquivos estarem prontos, a opção de GitHub Pages foi habilitada diretamente nas configurações do repositório. A partir disso, o site passou a ser acessível através de uma URL fornecida pelo GitHub.
+⦁	Lançamento: Uma vez configurado, o site foi lançado e se tornou acessível para os usuários em qualquer dispositivo conectado à internet.
+8. Programação Colaborativa e Desenvolvimento
+Durante o desenvolvimento da plataforma, a programação colaborativa foi realizada com o auxílio da ferramenta Repl.it. O Repl.it facilita a programação em tempo real, permitindo que múltiplos desenvolvedores trabalhem juntos no mesmo código simultaneamente, e também oferece um ambiente integrado para testar e executar os scripts.
+Benefícios do Repl.it:
+⦁	Facilidade de Acesso: Como a plataforma é online, qualquer membro da equipe pode acessar e colaborar de qualquer lugar.
+⦁	Execução Instantânea: A ferramenta permite que o código seja executado diretamente na plataforma, o que facilita os testes rápidos.
+9. Links Úteis e Recursos
+⦁	Website com GitHub Pages:⦁	 ⦁	Documentação GitHub Pages - Aqui você pode aprender como configurar e hospedar seu site estático no GitHub Pages.
 
-Explique como a hospedagem e o lançamento da plataforma foram realizados.
 
-> **Links úteis**:
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando seu site no Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+
+
+
+
