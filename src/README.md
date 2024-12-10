@@ -11,7 +11,15 @@ Uma sugestão para a estrutura de diretórios do projeto é a seguinte:
 src/  (esta pasta aqui)
 │
 ├── db/
-│   └── db.json (estruturas de dados)
+│   └── "index.js"
+         package-lock.json"
+         node_modules"
+         package.json"
+         perfil-do-usuario.json"
+         cadastro-vendedor.json"
+         camisas.json"
+         carrinho-de-compra.json"
+contato.json"
 │
 ├── public/ (seu site - front-end)
 │   ├── assets/
