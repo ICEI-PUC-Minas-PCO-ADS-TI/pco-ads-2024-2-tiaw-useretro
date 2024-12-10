@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento Aprovado</title>
+  <link rel="stylesheet" href="estilo.css"> <!-- Aqui você pode vincular seu arquivo de CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    .payment-approved-container {
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: green;
+    }
+    p {
+      color: #555;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="payment-approved-container">
+    <h1>Pagamento Aprovado!</h1>
+    <p>Obrigado pela sua compra! Seu pagamento foi processado com sucesso.</p>
+    <button onclick="voltarParaHome()">Voltar à Página Inicial</button>
+  </div>
+
+  <script>
+    function voltarParaHome() {
+      window.location.href = "/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Pagina Inicial/index.html"; // Redireciona para a página inicial
+    }
+  </script>
+</body>
+</html>
