@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+.container {
+  background-color: #000; /* Fundo preto */
+  padding: 10px 20px; /* Ajustar padding para alinhar melhor o conteúdo */
+  color: #fff;
+  display: flex;
+  align-items: center; /* Alinhar logo, barra de pesquisa e menu na mesma linha */
+  justify-content: space-between; /* Garantir espaço entre logo, menu e barra de pesquisa */
+  flex-wrap: nowrap; /* Não permitir quebra de linha */
+}
+
+header {
+  background-color: #000; /* Fundo preto */
+  padding: 10px 20px; /* Ajustar padding para alinhar melhor o conteúdo */
+  color: #fff;
+  display: flex;
+  align-items: center; /* Alinhar logo, barra de pesquisa e menu na mesma linha */
+  justify-content: space-between; /* Garantir espaço entre logo, menu e barra de pesquisa */
+  flex-wrap: nowrap; /* Não permitir quebra de linha */
+}
+/* Contêiner da logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px; /* Tamanho da logo ajustado */
+  height: auto; /* Manter proporção */
+}
+
+/* Menu horizontal centralizado */
+.menu-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Centralizar horizontalmente */
+  flex-grow: 1; /* Permitir que o menu cresça para centralizar */
+  gap: 20px; /* Espaçamento entre as opções do menu */
+}
+
+.menu-horizontal ul {
+  list-style-type: none; /* Remover bullets */
+  padding-left: 0; /* Remover padding à esquerda */
+  display: flex; /* Exibir os itens do menu horizontalmente */
+  gap: 15px; /* Espaçamento entre os itens do menu */
+  margin: 0; /* Remover margens para garantir alinhamento */
+}
+
+.menu-horizontal li {
+  margin: 0; /* Remover margens */
+}
+
+.menu-horizontal a {
+  text-decoration: none;
+  color: #ffffff; /* Cor branca para os links */
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.menu-horizontal a:hover {
+  color: #a79603; /* Cor diferente ao passar o mouse */
+}
+
+/* Barra de pesquisa */
+.barra-pesquisa {
+  margin-left: auto; /* Garantir que a barra de pesquisa fique à direita */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre campo e botão */
+  transition: all 0.3s ease; /* Animação suave */
+}
+
+#form-pesquisa {
+  display: flex;
+  align-items: center; /* Alinhar barra de pesquisa e botão na mesma linha */
+  gap: 10px; /* Ajustar o espaçamento */
+}
+
+#campo-pesquisa {
+  padding: 12px;
+  width: 300px; /* Largura da barra de pesquisa */
+  border: 1px solid #1f1b1b;
+  border-radius: 30px; /* Bordas arredondadas para deixar o campo mais elegante */
+  font-size: 1em;
+  transition: all 0.3s ease; /* Transição suave para foco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionar sombra ao campo */
+  background-color: #333333; /* Cinza mais próximo do preto */
+  color: #ffffff;
+}
+
+#campo-pesquisa::placeholder {
+  color: #aaaaaa; /* Cor do placeholder para ser mais visível em cinza escuro */
+}
+
+#campo-pesquisa:focus {
+  outline: none; /* Remover o contorno padrão do navegador */
+  border: 1px solid #a79603; /* Mudar cor da borda quando o campo estiver focado */
+  box-shadow: 0 6px 12px rgba(167, 150, 3, 0.5); /* Aumentar a sombra no foco */
+}
+
+/* Estilo do botão de pesquisa */
+#form-pesquisa button {
+  padding: 12px 20px; /* Ajuste do padding para deixar o botão mais destacado */
+  border: none;
+  background: linear-gradient(135deg, #a79603, #8d7300); /* Gradiente para o botão */
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px; /* Bordas arredondadas como o campo de pesquisa */
+  transition: background-color 0.3s, transform 0.3s; /* Transição suave para hover e foco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar destaque ao botão */
+}
+
+#form-pesquisa button:hover {
+  background: linear-gradient(135deg, #635101, #a79603); /* Alterar o gradiente no hover */
+  transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
+}
+
+#form-pesquisa button:active {
+  transform: translateY(1px); /* Efeito de "pressionado" */
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-wrap: wrap; /* Permitir quebra de linha para ajustar o layout */
+      flex-direction: column; /* Empilhar logo, menu e barra de pesquisa verticalmente */
+      align-items: center; /* Centralizar os elementos do cabeçalho */
+  }
+
+.menu-horizontal {
+      flex-direction: column; /* Colocar o menu em coluna em telas menores */
+      align-items: center;
+      gap: 10px; /* Espaçamento reduzido para itens de menu */
+  }
+
+  .barra-pesquisa {
+      width: 100%;
+      display: flex;
+      justify-content: center; /* Garantir que a barra de pesquisa esteja centralizada */
+      margin: 10px 0; /* Ajuste da margem para dar espaço em telas menores */
+  }
+
+  #campo-pesquisa {
+      width: 200px; /* Reduzir a largura da barra de pesquisa para caber em telas menores */
+  }
+
+  #form-pesquisa button {
+      padding: 10px 15px; /* Ajustar o padding do botão de pesquisa para telas menores */
+  }
+}
+@media (max-width: 600px) {
+  header {
+      flex-direction: column; /* Empilhar logo, menu e barra de pesquisa verticalmente */
+      align-items: center;
+  }
+
+  .menu-horizontal {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px; /* Diminuir o gap para itens de menu */
+  }
+
+  .barra-pesquisa {
+      margin-top: 10px;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  #campo-pesquisa {
+      width: 150px; /* Largura ainda menor para caber melhor em smartphones */
+      padding: 10px; /* Padding ajustado para compactar o campo */
+  }
+
+  #form-pesquisa button {
+      padding: 10px 15px; /* Padding reduzido no botão de pesquisa */
+  }
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: auto;
+  width: auto;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+/* Contêiner da logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px; /* Tamanho da logo ajustado */
+  height: auto; /* Manter proporção */
+}
+
+/* Menu horizontal centralizado */
+.menu-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Centralizar horizontalmente */
+  flex-grow: 1; /* Permitir que o menu cresça para centralizar */
+  gap: 20px; /* Espaçamento entre as opções do menu */
+}
+
+.menu-horizontal ul {
+  list-style-type: none; /* Remover bullets */
+  padding-left: 0; /* Remover padding à esquerda */
+  display: flex; /* Exibir os itens do menu horizontalmente */
+  gap: 15px; /* Espaçamento entre os itens do menu */
+  margin: 0; /* Remover margens para garantir alinhamento */
+}
+
+.menu-horizontal li {
+  margin: 0; /* Remover margens */
+}
+
+.menu-horizontal a {
+  text-decoration: none;
+  color: #ffffff; /* Cor branca para os links */
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.menu-horizontal a:hover {
+  color: #a79603; /* Cor diferente ao passar o mouse */
+}
+
+/* Barra de pesquisa */
+.barra-pesquisa {
+  margin-left: auto; /* Garantir que a barra de pesquisa fique à direita */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre campo e botão */
+  transition: all 0.3s ease; /* Animação suave */
+}
+
+
+
+
+main {
+  padding: 20px;
+  padding-bottom: 90x;
+}
+
+.produto h2 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.produto-imagem {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.descricao-produto p {
+  margin: 5px 0;
+}
+
+.calculo h3, .resumo h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.input-calc {
+  margin-bottom: 10px;
+}
+
+.input-calc label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-calc input {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-calc button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.input-calc button:hover {
+  background-color: #333;
+}
+
+.resumo {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resumo p {
+  margin: 10px 0;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 48%;
+}
+
+.botoes button:hover {
+  background-color: #333;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

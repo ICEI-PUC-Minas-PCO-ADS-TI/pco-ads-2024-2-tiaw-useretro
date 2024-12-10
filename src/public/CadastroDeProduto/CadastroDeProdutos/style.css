@@ -1,0 +1,254 @@
+/* Reset básico */
+body, h1, p, div, input, textarea, button, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #333; /* Alterado para cinza escuro para contraste com o formulário */
+    padding: 20px;
+    color: #fff; /* Cor clara para o texto */
+}
+
+/* Contêiner principal */
+.container {
+    max-width: 500px; /* Reduzido para ajustar o tamanho geral */
+    margin: 0 auto;
+    background: linear-gradient(135deg, #111, #333);
+    padding: 20px; /* Reduzido para uma aparência mais compacta */
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), /* Sombra principal para dar profundidade */
+                0 8px 8px rgba(0, 0, 0, 0.2),   /* Sombra mais suave perto do contêiner */
+                0 24px 48px rgba(0, 0, 0, 0.1); /* Sombra difusa extra para realçar o realismo */
+    border: 2px solid #555; /* Bordas destacadas para dar um ar clássico */
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 24px; /* Reduzido de 28px para 24px */
+    color: #f0f0f0; /* Branco suave */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: linear-gradient(90deg, #fff, #888);
+    -webkit-background-clip: text;
+    background-clip: text; /* Para navegadores que não são WebKit */
+    -webkit-text-fill-color: transparent; /* Texto em gradiente, ousado e esportivo */
+}
+
+/* Seção Informativa */
+.form-info {
+    display: flex;
+    align-items: center;
+    background-color: #2e2e2e;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px; /* Reduzido para economizar espaço */
+    margin-bottom: 35px;
+    font-size: 13px; /* Reduzido para manter a aparência compacta */
+    color: #bbb; /* Cinza claro */
+}
+
+.form-info .info-icon {
+    font-size: 16px;
+    margin-right: 6px;
+    color: #ffcc00; /* Destaque amarelo para atrair atenção */
+}
+
+.form-info p {
+    margin: 0;
+}
+
+/* Asterisco Vermelho na Seção Informativa */
+.form-info p .required {
+    color: #ff3333; /* Vermelho vibrante */
+    font-weight: bold;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Reduzido para deixar os campos mais próximos */
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-bottom: -5px; /* Totalmente removido para que o rótulo fique quase colado ao campo */
+    color: #fff; /* Branco para contraste com o fundo */
+    font-size: 13px; /* Reduzido para um visual mais compacto */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilo para informações adicionais dentro de labels */
+label .info-text {
+    color: #888; /* Tom de cinza suave */
+    font-size: 12px; 
+    font-weight: normal;
+}
+
+/* Asteriscos Vermelhos nos Campos */
+label .required {
+    color: #ff3333;
+    margin-left: 5px;
+}
+
+/* Campos de entrada */
+input, textarea {
+    width: 100%;
+    padding: 8px; /* Reduzido para diminuir o tamanho do campo */
+    border: 2px solid #555;
+    border-radius: 8px;
+    font-size: 14px; /* Reduzido para um visual mais leve */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #2e2e2e;
+    color: #fff; /* Texto branco */
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa; /* Cor mais clara para o texto placeholder */
+}
+
+/* Foco nos campos */
+input:focus, textarea:focus {
+    border: 2px solid #ffcc00; /* Cor vibrante no foco */
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.6);
+    outline: none;
+}
+
+/* Altura fixa para textarea */
+textarea {
+    resize: vertical;
+    height: 90px; /* Reduzido para manter o visual mais compacto */
+}
+
+/* Botão de envio */
+a button {
+    background-color: #ffcc00; /* Amarelo esportivo */
+    color: #111;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Reduzido para manter a estética */
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 6px 12px rgba(255, 204, 0, 0.4);
+    font-weight: bold;
+}
+
+a button:hover {
+    background-color: #e6b800; /* Tom mais escuro ao passar o mouse */
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 204, 0, 0.6);
+}
+
+a button:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 12px rgba(255, 204, 0, 0.4);
+}
+
+/* Contêiner de imagens carregadas */
+.uploaded-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px; /* Espaçamento ajustado entre as imagens */
+    margin-bottom: 10px;
+}
+
+/* Área de upload */
+.image-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #3a3a3a;
+    border: 3px dashed #666;
+    border-radius: 8px;
+    height: 180px; /* Ajuste para ficar proporcional ao novo layout */
+    position: relative;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 0px; /* Remover qualquer margem superior que possa existir */
+}
+
+.image-preview:hover {
+    border-color: #ffcc00;
+    background-color: #444;
+    transform: scale(1.02);
+}
+
+.image-preview p {
+    color: #ddd;
+    font-size: 14px; /* Ajustado para um tamanho menor */
+}
+
+/* Imagem padrão */
+.uploaded-image {
+    position: relative;
+    background: #222;
+    border: 2px solid #444;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 130px; 
+    height: 130px; /* Reduzido para se ajustar ao layout mais compacto */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.uploaded-image:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Botão de exclusão "X" */
+.delete-image-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.delete-image-btn:hover {
+    background: #ff5555;
+    transform: scale(1.2);
+}
+
+.uploaded-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Ajuste para quando há apenas uma imagem */
+.uploaded-images-container.single-image .uploaded-image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}

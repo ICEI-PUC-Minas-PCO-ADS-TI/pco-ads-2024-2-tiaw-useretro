@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - UseRetrô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/Pagina Inicial/index.html"><img src="logo.png" alt="Logo">
+            </a></div>
+        <div class="menu-horizontal">
+            <ul>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Pagina Inicial/index.html">Página Inicial</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Catalago/index.html">Catálogo</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/CadastroDeProduto/CadastroDeProdutos/index.html">Vender</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/Login/index.html">Login/Cadastro</a></li>
+                <li><a href="/useRetro - Site funcionando/useRetro - Todas as paginas/useRetrô/SobreNos/index.html">Sobre Nós</a></li>
+              </ul>
+        </div>
+        <div class="barra-pesquisa">
+            <form id="form-pesquisa">
+                <input type="text" id="campo-pesquisa" placeholder="Buscar camisas...">
+                <button type="submit">🔍︎</button>
+            </form>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="produto">
+            <h2>Carrinho de Compras</h2>
+            <div class="item">
+                <img src="http://127.0.0.1:5500/useRetro%20-%20Site%20funcionando/useRetro%20-%20Todas%20as%20paginas/useRetr%C3%B4/imagens/gremio.webp" alt="Camisa UseRetrô" class="produto-imagem">
+                <div class="descricao-produto">
+                    <p><strong>Produto:</strong> Camisa Grêmio Retrô</p>
+                    <p><strong>Ano:</strong> 1998</p>
+                    <p><strong>Tamanho:</strong> M</p>
+                    <p><strong>Quantidade:</strong> 
+                        <button id="decrementar" onclick="alterarQuantidade(-1)">-</button>
+                        <span id="quantidade">1</span>
+                        <button id="incrementar" onclick="alterarQuantidade(1)">+</button>
+                    </p>
+                    <p><strong>Valor Unitário:</strong> R$ 319,90</p>
+                    <p><strong>Valor Total:</strong> R$ <span id="valor-total">319,90</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="calculo">
+            <h3> Frete e Cupom</h3>
+            <div class="input-calc">
+                <label for="cep">Digite seu CEP:</label>
+                <input type="text" id="cep" placeholder="Ex: 12345-678">
+                <button onclick="calcularFrete()">Calcular Frete</button>
+            </div>
+            <div class="input-calc">
+                <label for="cupom">Digite o código do cupom:</label>
+                <input type="text" id="cupom" placeholder="Ex: DESCONTO10">
+                <button onclick="aplicarCupom()">Aplicar Cupom</button>
+            </div>
+        </section>
+        <section class="resumo">
+            <h3>Resumo da Compra</h3>
+            <p><strong>Subtotal:</strong> R$ 319,90</p>
+            <p><strong>Frete:</strong> R$ 15,00</p>
+            <p><strong>Cupom:</strong> -R$ 10,00</p>
+            <p><strong>Total:</strong> R$ 309,99</p>
+            <div class="botoes">
+                <button id="carrinho-btn" onclick="continuarCompra()">Continuar</button>
+                <button onclick="limparCarrinho()">Limpar</button>
+            </div>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 UseRetrô. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Função para alterar a quantidade
+        function alterarQuantidade(quantidade) {
+            const quantidadeElement = document.getElementById('quantidade');
+            let qtd = parseInt(quantidadeElement.innerText);
+            qtd += quantidade;
+            
+           
+            if (qtd < 1) {
+                qtd = 1;
+            }
+
+            
+            quantidadeElement.innerText = qtd;
+
+            // Atualiza o valor total baseado na quantidade
+            const valorUnitario = 189.90; 
+            const valorTotal = valorUnitario * qtd;
+            document.getElementById('valor-total').innerText = valorTotal.toFixed(2);
+        }
+
+        
+    </script>
+</body>
+</html>
