@@ -1,7 +1,7 @@
 # Referências
 
-- layout,  ClubsStar Imports
+Referências de desenvolvimento web, incluindo HTML, CSS e JavaScript. Disponível em: https://developer.mozilla.org/
 
-- Nike.com
- 
-- Mercado livre
+Referências de Layouts : https://www.nike.com , https://www.clubsimports.com
+
+Referencia de Estilização : https://getbootstrap.com
