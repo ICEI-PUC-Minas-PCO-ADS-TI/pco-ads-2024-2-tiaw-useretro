@@ -15,15 +15,25 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 **✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 
-![Captura de tela 2024-11-26 183536](https://github.com/user-attachments/assets/cdaa05bc-ff5e-46e5-aa46-1ba60c1cdbba)
 
-![Captura de tela 2024-11-26 183758](https://github.com/user-attachments/assets/f5e999db-b709-40a2-85ca-6768e7c692a3)
+Pagina Inicial do Site        ![Captura de tela 2024-11-26 183536](https://github.com/user-attachments/assets/cdaa05bc-ff5e-46e5-aa46-1ba60c1cdbba)
 
-![Captura de tela 2024-11-26 183828](https://github.com/user-attachments/assets/94a21dd7-0979-4457-847b-5b33edb798de)
 
-![Captura de tela 2024-11-26 183847](https://github.com/user-attachments/assets/2df51737-e4d6-4beb-91f9-8ae30178deff)
 
-![Captura de tela 2024-11-26 183906](https://github.com/user-attachments/assets/f7f63af8-1998-4275-8eff-e6914f0e959e)
+Pagina de Vendas              ![Captura de tela 2024-11-26 183758](https://github.com/user-attachments/assets/f5e999db-b709-40a2-85ca-6768e7c692a3)
+
+
+
+Pagina de Login               ![Captura de tela 2024-11-26 183828](https://github.com/user-attachments/assets/94a21dd7-0979-4457-847b-5b33edb798de)
+
+
+
+Carrinho de Compras           ![Captura de tela 2024-11-26 183847](https://github.com/user-attachments/assets/2df51737-e4d6-4beb-91f9-8ae30178deff)
+
+
+
+
+Detalhes do Produto           ![Captura de tela 2024-11-26 183906](https://github.com/user-attachments/assets/f7f63af8-1998-4275-8eff-e6914f0e959e)
 
  
 > **Links úteis**:
