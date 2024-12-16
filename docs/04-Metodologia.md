@@ -67,7 +67,7 @@ Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cin
 
 Nosso Grupo ultilizou a metodologia Scrum para organizar e gerenciar o desenvolvimento do projeto, utilizando o GitHub Projects como ferramenta de gerenciamento de tarefas. Esse recurso nos permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução de maneira eficiente e colaborativa.
 
-Nosso Grupo se reunia nos finais de semanas, para organizar, dividir tarefas e funcionalidades do projeto. 
+Nosso Grupo se reunia nos finais de semanas, para se organizar, dividir tarefas e funcionalidades do projeto. 
 
 ---
 
