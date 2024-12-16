@@ -32,10 +32,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 5. **Notificações**: As notificações devem ser entregues sem atraso.
 
 
-
-
-[História de Usuários.pdf](https://github.com/user-attachments/files/17923979/Historia.de.Usuarios.pdf)
-
 ## Proposta de valor
 
 **Proposta de valor**: 
@@ -47,8 +43,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 ![image](https://github.com/user-attachments/assets/5867c97f-2b5f-4fb2-bed8-57309e0cc5a9)
 
-
-[Propostas de valor.pdf](https://github.com/user-attachments/files/17926867/Propostas.de.valor.pdf)
 
 
 ## Requisitos
@@ -88,7 +82,4 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RNF-007 | Disponibilidade. O sistema deve estar disponível 24 horas por dia, 7 dias por semana.|
 | RNF-008 | Segurança. Implementar criptografia (SSL) para proteger dados sensíveis e evitar ataques.|
 | RNF-009 | Usabilidade. A interface deve ser intuitiva e de fácil uso em diferentes dispositivos.|
-
-[Requisitos do Projeto.pdf](https://github.com/user-attachments/files/17924091/Requisitos.do.Projeto.pdf)
-
 
