@@ -1,25 +1,21 @@
 cff-version: 1.2.0
 message: Please cite this software using these metadata.
-title: Coloque aqui o título do seu trabalho
+title: UseRetrô
 authors:
-  - family-names: Sobrenome do aluno 1
-    given-names: Nome do aluno 1 
-  - family-names: Sobrenome do aluno 2
-    given-names: Nome do aluno 2 
-  - family-names: Sobrenome do aluno 3
-    given-names: Nome do aluno 3 
-  - family-names: Sobrenome do aluno 4
-    given-names: Nome do aluno 4 
-  - family-names: Sobrenome do aluno 5
-    given-names: Nome do aluno 5 
-  - family-names: Sobrenome do aluno 6
-    given-names: Nome do aluno 6 
-  - name-suffix: Professor
+  - family-names: Bernardo
+    given-names: Gustavo
+  - family-names: Meireles
+    given-names: Mellyssa
+  - family-names: Gomes
+    given-names: George
+  - family-names: Caroline
+    given-names: Ana
+  - family-names: Aparecida
+    given-names: Raissa
     affiliation: PUC Minas
-    family-names: Sobrenome do(a) professor(a)
-    given-names: Nome do(a) professor(a)
-  - name-suffix: Professora
-    affiliation: PUC Minas    
+    family-names: Soares
+    given-names: Amália
+  - name-suffix: Professora  
 keywords:
     - coloque aqui a palavra-chave 1
     - coloque aqui a palavra-chave 2
