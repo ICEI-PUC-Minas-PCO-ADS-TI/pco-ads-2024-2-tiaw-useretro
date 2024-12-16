@@ -34,7 +34,7 @@ Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cin
 | Ambiente  | Plataforma | Link de acesso|
 |-----------|------------|---------------|
 | Repositório de código fonte | Github |  https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/tree/main/src |
-| Documentos do projeto | Github |   | 
+| Documentos do projeto | Github |  https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/blob/main/docs/01-Contexto.md | 
 | Projeto de Interface e  Wireframes | Figma |  https://www.figma.com/design/XrLGon8v7t8B9fWmjjMVbg/Untitled?node-id=0-1&p=f&t=Q7Hkye9Gml6wMiwt-0 | 
 | Gerenciamento do Projeto | Github Projects |  https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/29 |
 | IDE | Visual Studio Code | https://code.visualstudio.com/download |
@@ -79,7 +79,7 @@ Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será
 | Ambiente    | Plataforma  | Link de acesso |
 |-------------|-------------|----------------|
 | Repositório de código fonte | Github | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/tree/main/src |
-| Documentos do projeto | Github |  | 
+| Documentos do projeto | Github |  https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/blob/main/docs/01-Contexto.md  | 
 | Projeto de Interface e  Wireframes | Figma |  https://www.figma.com/design/XrLGon8v7t8B9fWmjjMVbg/Untitled?node-id=0-1&p=f&t=Q7Hkye9Gml6wMiwt-0 | 
 | Gerenciamento do Projeto | Github Projects | https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/29  |  
 | Design do projeto | Miro | https://miro.com/app/board/uXjVKoqwSiA=/ |
