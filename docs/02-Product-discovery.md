@@ -6,13 +6,13 @@
 
 ## Etapa de entendimento
 
-> * **Matriz CSD**:
+- * **Matriz CSD**:
 > * ![image](https://github.com/user-attachments/assets/c93bd3f1-6cce-4bc7-a8ed-ee5da56921ba)
 
-> * **Mapa de stakeholders**:
+- * **Mapa de stakeholders**:
 > * ![image](https://github.com/user-attachments/assets/08b6e789-a7c5-4ac7-a149-c88d7257afee)
 
-> * **Entrevistas qualitativas**:
+- * **Entrevistas qualitativas**:
 > * ![image](https://github.com/user-attachments/assets/4593c751-aac2-44ee-87c2-966a48befa89)
 > * ![image](https://github.com/user-attachments/assets/be9a2058-95a7-4546-a7c2-a3b8e67fd52d)
 > * ![image](https://github.com/user-attachments/assets/b2fcd246-e982-45d6-8713-48b48ed5ef96)
@@ -21,7 +21,7 @@
 > * ![image](https://github.com/user-attachments/assets/640960f5-7aed-4bcf-9144-9a2cc92dbe98)
 
 
-> * **Highlights de pesquisa**:
+- * **Highlights de pesquisa**:
 > * ![image](https://github.com/user-attachments/assets/c7c6e39b-8c81-442c-9af1-9534f7da7f2b)
 
 
