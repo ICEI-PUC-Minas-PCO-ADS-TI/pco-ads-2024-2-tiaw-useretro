@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: Please cite this software using these metadata.
 title: UseRetrô
 authors:
-
   - family-names: Bernardo
     given-names: Gustavo
   - family-names: Meireles
