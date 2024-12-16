@@ -52,6 +52,7 @@ Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cin
 - **Performance:**  
   Garantir carregamento rápido e navegação fluida.  
 
+---
 
 ###  Quadro de tarefas
 
