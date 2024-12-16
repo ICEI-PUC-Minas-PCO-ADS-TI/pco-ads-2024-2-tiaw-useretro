@@ -53,14 +53,16 @@ Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cin
 
 ## **Ambientes de Trabalho**
 
-Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será detalhada a relação entre os ambientes utilizados, suas plataformas e respectivos links de acesso. Além disso, serão especificados os frameworks e tecnologias empregados no desenvolvimento de aplicações móveis.  
+Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será detalhada a relação entre os ambientes utilizados, suas plataformas e respectivos links de acesso. Além disso, serão especificados os frameworks e tecnologias empregados no desenvolvimento de aplicações móveis.    
 
-**Exemplo de tabela a ser criada:**  
 
-| Ambiente        | Plataforma              | 
-|------------------|-------------------------|
-| Desenvolvimento  | Visual Studio Code     |
-| Design           | Figma, Miro            | 
+| Ambiente    | Plataforma  | Link de acesso |
+|-------------|-------------|----------------|
+| Repositório de código fonte | Github | [Link para o Git] |
+| Documentos do projeto | Github | [Link para a documentação no Git] | 
+| Projeto de Interface e  Wireframes | Figma | [Link Para o Figma] | 
+| Gerenciamento do Projeto | Github Projects | [Link Para o Kanban no Git]|  
+| Design do projeto | Miro | [Link Para as Docs do React]  |
 
 ---
 
