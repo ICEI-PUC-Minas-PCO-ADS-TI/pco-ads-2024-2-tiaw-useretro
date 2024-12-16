@@ -7,13 +7,18 @@
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados na parte de <a href="03-Product-design.md"> product design</a></span>.
 
+## UserFlow
+
+
+![Imagem do WhatsApp de 2024-12-15 à(s) 18 05 59_0e6a3103](https://github.com/user-attachments/assets/eb027ce7-0493-451c-87be-bb16dd4f639a)
+
+
+
 ## Wireframes
 
 
 São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
 
-
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 
 
 
