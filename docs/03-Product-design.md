@@ -5,17 +5,31 @@
 ## Histórias de usuários
 
 **História de usuários**: 
-|EU COMO... `PERSONA`            | QUERO/PRECISO ... `FUNCIONALIDADE`                                       | PARA ... `MOTIVO/VALOR`                                             |
-|--------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------|
-|Usuário                        | Filtro para propostas a negociação                                       | Ser coerente com o valor que estarei disposto a pagar.             |
-|Usuário                        | Opção para realizar pagamento e verificação de vendedor e cliente       | Não quero que o valor se extravie.                                 |
-|Usuário                        | Boa visualização e descrição do produto                                 | Obter todas as informações necessárias para a compra.              |
-|Usuária                        | Adquirir camisas retros com ótima qualidade                             | Presentear e poder enquadrar com segurança no pagamento.           |
-|Usuária                        | Filtro para escolher por tamanho de camisas                             | Não visualizar produtos que não existem no meu tamanho.            |
-|Usuária                        | Opção de entrega expressa                                               | Receber rapidamente os produtos comprados.                         |
-|Usuária                        | Rastreamento do envio do pedido                                         | Me programar para estar em casa no dia da entrega.                 |
-|Usuário                        | Comprar camisas retro de qualidade e com segurança                      | Notificação e favoritos para adquirir camisas desejadas.           |
+## Histórias de Usuários
 
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
+
+| **EU COMO... `PERSONA`**        | **QUERO/PRECISO ... `FUNCIONALIDADE`**                    | **PARA ... `MOTIVO/VALOR`**                               | **PRIORIDADE** |
+|---------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------|
+| Usuário (Caio)                  | Filtro para propostas a negociação                       | Ser coerente com o valor que estarei disposto a pagar     | Alta           |
+| Usuário (Caio)                  | Realizar pagamento e verificação de vendedor e cliente   | Evitar que o valor se extravie                           | Alta           |
+| Usuário (Caio)                  | Visualização e descrição clara dos produtos              | Obter todas as informações necessárias para a compra     | Média          |
+| Usuária (Amanda)                | Adquirir camisas retrô com ótima qualidade               | Presentear e poder enquadrar com segurança no pagamento  | Alta           |
+| Usuária (Júlia)                 | Filtro para escolher por tamanho                         | Não visualizar produtos que não existem no meu tamanho   | Alta           |
+| Usuária (Júlia)                 | Opção de entrega expressa                                | Receber rapidamente os produtos comprados                | Média          |
+| Usuária (Júlia)                 | Rastrear o envio do pedido                               | Me programar para estar em casa no dia da entrega        | Baixa          |
+| Usuário (José)                  | Comprar camisas retrô e receber notificações             | Adquirir facilmente as camisas desejadas                 | Alta           |
+| Usuário (José)                  | Adicionar camisas aos favoritos                          | Facilitar futuras compras                                | Média          |
+
+---
+
+## Restrições
+
+1. **Segurança**: O sistema deve implementar verificação segura e criptografada no pagamento.  
+2. **Filtros**: Filtros robustos que garantam precisão nas buscas.  
+3. **Rastreamento**: O rastreamento deve ser atualizado em tempo real.  
+4. **Performance**: O sistema deve ter tempo de carregamento ideal (menos de 3 segundos).  
+5. **Notificações**: As notificações devem ser entregues sem atraso.
 
 
 
