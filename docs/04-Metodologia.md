@@ -37,7 +37,7 @@ Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cin
 | Documentos do projeto | Github |   | 
 | Projeto de Interface e  Wireframes | Figma |  (https://www.figma.com/design/XrLGon8v7t8B9fWmjjMVbg/Untitled?node-id=0-1&p=f&t=Q7Hkye9Gml6wMiwt-0) | 
 | Gerenciamento do Projeto | Github Projects |  (https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/29) |
-| IDE | Visual Studio Code | [Link Para Dowload do VS Code] |
+| IDE | Visual Studio Code | https://code.visualstudio.com/download |
 
 ---
 
