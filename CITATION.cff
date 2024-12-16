@@ -2,20 +2,25 @@ cff-version: 1.2.0
 message: Please cite this software using these metadata.
 title: UseRetrô
 authors:
-  - family-names: Bernardo
+  - family-names: Bernardo N Santos
     given-names: Gustavo
-  - family-names: Meireles
+  - family-names: Meireles dos Santos
     given-names: Mellyssa
-  - family-names: Gomes
+  - family-names: Gomes Ribeiro Junior
     given-names: George
-  - family-names: Caroline
+  - family-names: Caroline Resende Gomes
     given-names: Ana
-  - family-names: Aparecida
+  - family-names: Aparecida de Souza Rocha
     given-names: Raissa
     affiliation: PUC Minas
-    family-names: Soares
+    family-names: Soares Vieira de Vasconcelos
     given-names: Amália
   - name-suffix: Professora  
+
+keywords:
+    Retrô
+    Camisa
+    Times
 
 repository-code: https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro
 license: CC-BY-4.0
