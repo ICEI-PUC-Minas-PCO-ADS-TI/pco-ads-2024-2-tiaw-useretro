@@ -17,7 +17,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 | **Objetivo do teste** | Verificar se os produtos populares ou em promoção são exibidos corretamente na página inicial. |
 | **Passos** | - Acessar o site<br> - Verificar a seção de produtos em destaque<br> - Conferir se os produtos exibidos possuem as informações de imagem, descrição e preço |
 | **Critério de êxito** | - Os produtos são exibidos corretamente com todas as informações detalhadas. |
-| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+| **Responsável pela elaboração do caso de teste** | Raissa Aparecida |
 
 ---
 
@@ -28,7 +28,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 | **Objetivo do teste** | Validar a navegação entre as categorias, novidades, ofertas e informações da loja. |
 | **Passos** | - Acessar o site<br> - Clicar em cada opção do menu<br> - Verificar se a página correspondente é carregada corretamente |
 | **Critério de êxito** | - Todas as opções do menu redirecionam corretamente. |
-| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+| **Responsável pela elaboração do caso de teste** | Raissa Aparecida |
 
 ---
 
@@ -39,7 +39,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 | **Objetivo do teste** | Garantir que o banner ou slider exibe imagens promocionais corretamente. |
 | **Passos** | - Acessar o site<br> - Verificar o carregamento das imagens no banner<br> - Observar a transição automática ou manual das imagens |
 | **Critério de êxito** | - As imagens promocionais são exibidas e alternam corretamente. |
-| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+| **Responsável pela elaboração do caso de teste** | Raissa Aparecida |
 
 ---
 
@@ -50,7 +50,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 | **Objetivo do teste** | Verificar se a barra de busca localiza produtos corretamente. |
 | **Passos** | - Acessar o site<br> - Inserir um termo de busca (nome, time ou categoria)<br> - Conferir os resultados retornados |
 | **Critério de êxito** | - O sistema retorna resultados relevantes e corretos. |
-| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+| **Responsável pela elaboração do caso de teste** | Raissa Aparecida |
 
 ---
 
@@ -61,7 +61,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 | **Objetivo do teste** | Garantir que o site é exibido corretamente em diferentes dispositivos e tamanhos de tela. |
 | **Passos** | - Acessar o site em um navegador de desktop<br> - Acessar o site em um dispositivo móvel (smartphone e tablet)<br> - Verificar a adaptação do layout |
 | **Critério de êxito** | - O site é exibido corretamente em todos os dispositivos testados. |
-| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+| **Responsável pela elaboração do caso de teste** | Raissa Aparecida |
 
 ---
 
@@ -72,5 +72,5 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 | **Objetivo do teste** | Verificar se o usuário consegue realizar o checkout do carrinho de compras. |
 | **Passos** | - Adicionar itens ao carrinho<br> - Acessar o carrinho<br> - Preencher os dados de envio e pagamento<br> - Finalizar a compra |
 | **Critério de êxito** | - O pedido é confirmado com sucesso. |
-| **Responsável pela elaboração do caso de teste** | Nome do integrante da equipe. |
+| **Responsável pela elaboração do caso de teste** | Raissa Aparecida |
 
