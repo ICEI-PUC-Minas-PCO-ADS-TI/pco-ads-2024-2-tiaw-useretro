@@ -5,7 +5,7 @@
 
 ---
 
-## **Definição dos Objetivos do Site**
+### **Definição dos Objetivos do Site**
 
 - Desenvolver uma plataforma especializada em camisas retrô.  
 - Oferecer uma experiência de navegação intuitiva e visualmente atraente.  
@@ -14,14 +14,14 @@
 
 ---
 
-## **Planejamento**
+### **Planejamento**
 
 ### **Público-Alvo**  
 Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cinéfilos, nostálgicos e colecionadores.  
 
 ---
 
-## **Funcionalidades Principais**
+### **Funcionalidades Principais**
 
 - Catálogo de produtos com filtros avançados (por época, estilo e tipo de camisa).  
 - Integração com métodos de pagamento diversos (cartão de credito e Pix).  
@@ -29,7 +29,7 @@ Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cin
 
 ---
 
-## **Ferramentas Utilizadas**
+### **Ferramentas Utilizadas**
 
 | Ambiente  | Plataforma | Link de acesso|
 |-----------|------------|---------------|
@@ -63,7 +63,15 @@ Identificar e atender pessoas interessadas em moda retrô, fãs de esportes, cin
 
 ---
 
-## **Ambientes de Trabalho**
+### Processo
+
+Nosso Grupo ultilizou a metodologia Scrum para organizar e gerenciar o desenvolvimento do projeto, utilizando o GitHub Projects como ferramenta de gerenciamento de tarefas. Esse recurso nos permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução de maneira eficiente e colaborativa.
+
+Nosso Grupo se reunia nos finais de semanas, para organizar, dividir tarefas e funcionalidades do projeto. 
+
+---
+
+### **Ambientes de Trabalho**
 
 Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será detalhada a relação entre os ambientes utilizados, suas plataformas e respectivos links de acesso. Além disso, serão especificados os frameworks e tecnologias empregados no desenvolvimento de aplicações móveis.    
 
@@ -78,7 +86,6 @@ Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será
 
 ---
 
-## **Planejamento do Projeto**
 
 ### **Divisão de Papéis**  
 
