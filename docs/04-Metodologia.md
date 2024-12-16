@@ -58,7 +58,7 @@ Os artefatos do projeto são desenvolvidos em diversas plataformas. Abaixo será
 
 | Ambiente    | Plataforma  | Link de acesso |
 |-------------|-------------|----------------|
-| Repositório de código fonte | Github | [Link para o Git] |
+| Repositório de código fonte | Github | [Link para o Git] (https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-useretro/tree/main/src) |
 | Documentos do projeto | Github | [Link para a documentação no Git] | 
 | Projeto de Interface e  Wireframes | Figma | [Link Para o Figma] | 
 | Gerenciamento do Projeto | Github Projects | [Link Para o Kanban no Git]|  
